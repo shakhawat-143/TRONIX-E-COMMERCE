@@ -1,0 +1,34 @@
+@import '../variables/variables';
+@import '../mixins/mixin';
+header{
+    padding: 18px 0;
+    .main_head{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid $secondery_color;
+        .head_icon{
+            ul{
+                display: flex;
+                gap: 32px;
+                li{
+                    a{
+                        color: $secondery_color;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        .head_contact{
+            ul{
+                display: flex;
+                gap: 32px;
+                li{
+                    a{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                        color: $primary_color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#single_product{
+    padding: 99px 0  80px;
+    .product_full{
+        img{
+            width: 100%;
+        }
+    }
+    .main_pro_short{
+        position: relative;
+        .spsl{
+            position: absolute;
+            top: 31%;
+            left: 7%;
+            z-index: 1;
+            i{
+                padding: 10px;
+                border-radius: 8px;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                &:hover{
+                    color: $brand_color;
+                }
+            }
+        }
+        .spsr{
+            position: absolute;
+            top: 31%;
+            right: 7%;
+            i{
+                padding: 10px;
+                border-radius: 8px;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+                &:hover{
+                    color: $brand_color;
+                }
+            }
+        }
+        .product_short{
+            padding: 20px 80px;
+            img{
+                padding: 0 20px;
+                width: 100%;
+            }
+        }
+    }
+    .page_location{
+        ol{
+            li{
+                &::before{
+                    color: $secondery_color;
+                }
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $secondery_color);
+                }
+            }
+            .corrent_page{
+                a{
+                    color: $brand_color;
+                }
+            }
+        }
+    }
+    .pro_rate{
+        display: flex;
+        gap: 20px;
+        ul{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            li{
+                @include descrip ($ff: $primary_font, $fs: 14px, $fw: 400, $clr: $secondery_color);
+                a{
+                    color: $secondery_color;
+                    i{
+                        &:hover{
+                            color: $brand_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pro_price{
+        h2{
+            a{
+                @include descrip ($ff: $primary_font, $fs: 36px, $fw: 400, $clr: $primary_color);
+            }
+        }
+        .product_price{
+            display: flex;
+            gap: 14px;
+            margin-top: 20px;
+            ul{
+                display: flex;
+                gap: 14px;
+                margin: 0;
+                li{
+                    a{
+                        @include descrip ($ff: $primary_font, $fs: 36px, $fw: 700, $clr: $primary_color);
+                        del{
+                            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                        }
+                    }
+                }
+            }
+            .money_save{
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $brand_color);  
+                padding: 10px;
+                border-radius: 8px;
+                border: 2px solid $brand_color;
+            }
+        }
+    }
+    .profeature{
+        padding: 38px 0 22px;
+        border-bottom: 2px solid $secondery_color;
+        ul{
+            display: flex !important;
+            align-items: center;
+            gap: 32px;
+            li{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+            }
+        }
+    }
+    .pro_description{
+        h3{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $primary_color);
+            padding: 32px 0 16px;
+        }
+        p{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+        }
+    }
+    .quantity{
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+        align-items: center;
+        .main_quentity{
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            span{
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $secondery_color);
+                margin-top: 10px;
+            }
+            form{
+                .value-button {
+                    display: inline-block;
+                    border: 1px solid #ddd;
+                    margin: 0px;
+                    width: 30px;
+                    height: 30px;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: $primary_color;
+                    font-weight: 700;
+                    background: $secondery_color;
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                    -khtml-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                    &:hover {
+                        cursor: pointer;
+                        color: white;
+                        background-color: $brand_color;
+                      }
+                  }
+                  #decrease {
+                    margin-right: -4px;
+                    border-radius: 8px;
+                  }
+                  #increase {
+                    margin-left: -4px;
+                    border-radius: 8px;
+                  }
+                  input{
+                    text-align: center;
+                    border: none;
+                    color: $brand_color;
+                    margin: 0px;
+                    width: 40px;
+                    height: 40px;
+                  }
+                  input[type=number]::-webkit-inner-spin-button,
+                  input[type=number]::-webkit-outer-spin-button {
+                  -webkit-appearance: none;
+                  margin: 0;
+                  }
+            }
+
+        }
+        .quantity_chat{
+            a{
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $brand_color);   
+                text-transform: capitalize;
+                padding: 6.5px 25.5px; 
+                border: 2px solid $brand_color;
+                border-radius: 8px;
+                transition: .3s;
+                &:hover{
+                    color: white;
+                    background-color: $brand_color;
+                }
+            }
+        }
+    }
+}

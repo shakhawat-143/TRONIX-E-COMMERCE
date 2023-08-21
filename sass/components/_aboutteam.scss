@@ -1,0 +1,42 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#team{
+    padding: 160px 0;
+    .team_head{
+        text-align: center;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color)
+        }
+        p{
+            @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+            width: 54%;
+            margin: 0 auto;
+            padding: 32px 0 80px;
+        }
+    }
+    .main_team{
+        display: flex;
+        gap: 32px;
+        .team_item{
+            width: 25%;
+            .team_member{
+                img{
+                   width: 100%;
+                }
+            }
+            .team_name{
+                padding: 34px;
+                text-align: center;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                border-radius: 15px;
+                h3{
+                    @include  descrip ($ff: $primary_font, $fs: 24px, $fw: 500, $clr: $primary_color);
+                    padding: 8px 0;
+                }
+                p{
+                    @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                }
+            }
+        }
+    }
+}

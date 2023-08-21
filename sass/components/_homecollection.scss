@@ -1,0 +1,50 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#collection{
+    padding: 160px 0;
+    .collection_head{
+        text-align: center;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color);
+            text-transform: capitalize;
+        }
+        p{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+            line-height: 32px;
+            width: 43%;
+            margin: 24px auto 0;
+        }
+    }
+    .collections{
+        margin-top: 80px;
+        display: flex;
+        gap: 32px;
+        .collection_item{
+            position: relative;
+            width: 50%;
+            img{
+                width: 100%;
+            }
+            .coll_txt{
+                width: fit-content;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% , -50%);
+                background-color: rgba(250, 250, 250, 0.808);
+                text-align: center;
+                padding: 32px;
+                border-radius: 16px;
+                h3{
+                    @include head ($ff: $secondery_font , $fs: 36px, $fw: 700, $clr: $primary_color);
+                    width: max-content;
+                }
+                p{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color); 
+                    width: 105%;
+                    margin: 16px auto 0;
+                }
+            }
+        }
+    }
+}

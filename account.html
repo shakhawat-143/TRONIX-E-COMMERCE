@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRONIX</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_slick-carousel@1.8.1_slick_slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- =========== NAV PART START ============ -->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_nav">
+                        <div class="nav_logo">
+                            <img src="photos/Tronix.png" alt="Tronix">
+                        </div>
+                        <div class="nav_search">
+                            <form action="#">
+                                <input class="about_inp" type="search" placeholder="Search here">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                        <div class="main_menu about_menu">
+                            <ul>
+                               <li><a href="index.html">home</a></li>
+                               <li><a href="about.html">about</a></li>
+                               <li><a href="product.html">product</a></li>
+                               <li><a href="bloglist.html">blog</a></li>
+                               <li><a href="contact.html">contact</a></li>
+                            </ul> 
+                         </div>
+                        <div class="nav_signup">
+                            <div class="shopping">
+                               <div class="shop"> <img src="photos/ShoppingBag.svg" alt="Shopping"><a href="#">99</a></div>
+                               <div><a href="#"><img src="photos/Emailb.svg" alt="Emailb"></a></div>
+                               <div><a href="#"><img src="photos/Menu.svg" alt="Menu"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- =========== NAV PART END ============ -->
+    <!-- =========== PROFILE PART START ============ -->
+<section id="profile">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="main_profile">
+                    <div class="sort_profile_menu">
+                        <h2>My Profile</h2>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Account Details</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Orders</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Wallet</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Addresses-tab" data-bs-toggle="tab" data-bs-target="#Addresses-tab-pane" type="button" role="tab" aria-controls="Addresses-tab-pane" aria-selected="false">Addresses</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Favorites-tab" data-bs-toggle="tab" data-bs-target="#Favorites-tab-pane" type="button" role="tab" aria-controls="Favorites-tab-pane" aria-selected="false">My Favorites</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Loyalty-tab" data-bs-toggle="tab" data-bs-target="#Loyalty-tab-pane" type="button" role="tab" aria-controls="Loyalty-tab-pane" aria-selected="false">Loyalty</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="Logout-tab" data-bs-toggle="tab" data-bs-target="#Logout-tab-pane" type="button" role="tab" aria-controls="Logout-tab-pane" aria-selected="false">Logout</button>
+                          </li>
+                        </ul>
+
+                    </div>
+                      <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                            <div class="account_details">
+                                <h2>Account Details</h2>
+                                <p>Already have an account? Please, <a href="login.html">login</a>!</p>
+                                <form action="#">
+                                    <span class="liner_form">
+                                        <span>
+                                            <label for="Fname">Fast Name</label>
+                                            <input type="text" id="Fname">
+                                        </span>
+                                        <span>
+                                            <label for="Lname">Last Name</label>
+                                            <input type="text" id="Lname">
+                                        </span>
+                                    </span>
+                                    <span class="liner_form">
+                                        <span>
+                                            <label for="email">Email</label>
+                                            <input type="email" id="email">
+                                        </span>
+                                        <span>
+                                            <label for="phone">Phone</label>
+                                            <input type="number" id="phone">
+                                        </span>
+                                    </span>
+                                    <span class="liner_form save_btn">
+                                        <button type="button">Save</button>
+                                    </span>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Orders</div>
+                        <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Wallet</div>
+                        <div class="tab-pane fade" id="Addresses-tab-pane" role="tabpanel" aria-labelledby="Addresses-tab" tabindex="0">Addresses</div>
+                        <div class="tab-pane fade" id="Favorites-tab-pane" role="tabpanel" aria-labelledby="Favorites-tab" tabindex="0">My Favorites</div>
+                        <div class="tab-pane fade" id="Loyalty-tab-pane" role="tabpanel" aria-labelledby="Loyalty-tab" tabindex="0">Loyalty</div>
+                        <div class="tab-pane fade" id="Logout-tab-pane" role="tabpanel" aria-labelledby="Logout-tab" tabindex="0">Logout</div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- =========== PROFILE PART ENDED ============ -->
+    <!-- =========== NEWSLATTER PART START ============ -->
+    <section id="Abnewslatter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="abMain_newslatter">
+                    <div class="ab_news_logo"><img src="photos/Newsletter.svg" alt="Newsletter"></div>
+                    <div class="ab_news_head">
+                        <h2>Join our newsletter now!</h2>
+                        <p>Register now and get our latest updates and promos.</p>
+                    </div>
+                     <div>
+                        <form action="#">
+                            <input type="email" placeholder="Enter your email">
+                            <button type="submit">join</button>
+                        </form>
+                     </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== NEWSLATTER PART END ============ -->
+    <!-- =========== FOOTER PART START ============ -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="foot_logo">
+                        <h2>Tronix</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                        <div class="foot_head">
+                            <ul class="ab_ftul">
+                                <li> <span><img src="photos/Call.svg" alt="Call"></span> <a href="tel:+1234567890">+1234567890</a></li>
+                                <li> <span><img src="photos/Email.svg" alt="Email"></span> <a href="mailto:support@tronix.com">+support@tronix.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="foot_head">
+                        <h2>Company</h2>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="product.html">Product</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="bloglist.html">Blog</a></li>
+                            <li><a href="#">careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="foot_head">
+                        <h2>Information</h2>
+                        <ul>
+                            <li><a href="#">Help Center </a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                            <li><a href="#">Return & Refund</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="foot_head">
+                        <h2>Follow Us</h2>
+                        <ul class="abflow">
+                            <li><a href="#"><img src="photos/instagram.svg" alt="instagram"></a></li>
+                            <li><a href="#"><img src="photos/twitter.svg" alt="twitter"></a></li>
+                            <li><a href="#"><img src="photos/facebook.svg" alt="facebook"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="main_copyright ab_cpr">
+                        <div class="copyR">
+                            <p>Copyright © 2021 <a href="#">Tronix</a>. All Right Reseved</p>
+                        </div>
+                        <div class="payment">
+                            <ul>
+                                <li><a href="#"><img src="photos/master.svg" alt="mastercard"></a></li>
+                                <li><a href="#"><img src="photos/Visa.svg" alt="Visa"></a></li>
+                                <li><a href="#"><img src="photos/paypal.svg" alt="paypal"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== FOOTER PART END ============ -->
+<script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+<script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+<script src="js/cdn.jsdelivr.net_npm_slick-carousel@1.8.1_slick_slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

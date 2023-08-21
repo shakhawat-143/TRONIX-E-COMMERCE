@@ -1,0 +1,40 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#blog{
+    .blog_head{
+        h2{
+            @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color);
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+    .main_blogs{
+        display: flex;
+        gap: 32px;
+        margin-top: 80px;
+        .blog_item{
+            width: 33.333%;
+            border: 1px solid $secondery_color;
+            border-radius: 32px;
+            img{
+                width: 100%;
+            }
+            h3{
+                @include descrip ($ff: $primary_font, $fs: 17px, $fw: 500, $clr: $primary_color);
+                padding: 32px 20px;
+            }
+            p{
+                @include descrip ($ff: $primary_font, $fs: 14px, $fw: 500, $clr: $secondery_color);  
+                padding: 0 20px 32px;
+                a{
+                    color: $brand_color;
+                }
+                input{
+                    @include descrip ($ff: $primary_font, $fs: 14px, $fw: 500, $clr: $secondery_color);  
+                    border: none;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

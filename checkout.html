@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRONIX</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_slick-carousel@1.8.1_slick_slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- =========== NAV PART START ============ -->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_nav">
+                        <div class="nav_logo">
+                            <img src="photos/Tronix.png" alt="Tronix">
+                        </div>
+                        <div class="nav_search">
+                            <form action="#">
+                                <input class="about_inp" type="search" placeholder="Search here">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                        <div class="main_menu about_menu">
+                            <ul>
+                               <li><a href="index.html">home</a></li>
+                               <li><a href="about.html">about</a></li>
+                               <li><a href="product.html">product</a></li>
+                               <li><a href="bloglist.html">blog</a></li>
+                               <li><a href="contact.html">contact</a></li>
+                            </ul> 
+                         </div>
+                        <div class="nav_signup">
+                            <div class="shopping">
+                               <div class="shop"> <img src="photos/ShoppingBag.svg" alt="Shopping"><a href="#">99</a></div>
+                               <div><a href="#"><img src="photos/Emailb.svg" alt="Emailb"></a></div>
+                               <div><a href="#"><img src="photos/Menu.svg" alt="Menu"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page_location" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item"><a href="mycart.html">My Cart</a></li>
+                          <li class="breadcrumb-item corrent_page" aria-current="page"><a href="#">Checkout</a></li>
+                        </ol>
+                    </div >
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- =========== NAV PART END ============ -->
+    
+    <!-- =========== MY COUPON PART START ============ -->
+<section id="Checkout">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="Checkout_head">
+                    <h2>Checkout</h2>
+                </div>
+                <ul class="cart_step">
+                    <li class="step1"><a href="#">1</a>My Cart</li>
+                    <li class="step1"><a href="#">2</a>Checkout</li>
+                </ul>
+                <div class="Checkout_details">
+                    <div class="buyer_info">
+                        <h5>Buyer Info</h5>
+                        <form action="#">
+                            <span class="info_liner">
+                                <span>
+                                    <label for="Name">Fast Name</label><br>
+                                    <input type="text" id="Name">
+                                </span>
+                                <span>
+                                    <label for="Last_Name">Last Name</label><br>
+                                    <input type="text" id="Last_Name">
+                                </span>
+                            </span>
+                            <span class="info_liner">
+                                <span>
+                                    <label for="Address">Address</label><br>
+                                    <input type="text" id="Address">
+                                </span>
+                                <span>
+                                    <label for="Contact">Contact</label><br>
+                                    <input type="number" id="Contact">
+                                </span>
+                            </span>
+                            <span class="info_liner">
+                                <span>
+                                    <label for="Country">Country</label><br>
+                                    <input type="text" id="Country">
+                                </span>
+                                <span>
+                                    <label for="City">City</label><br>
+                                    <input type="text" id="City">
+                                </span>
+                            </span>
+                            <span class="info_liner">
+                                <span>
+                                    <label for="State">State</label><br>
+                                    <select name="State" id="State">
+                                        <option value="State">Select State</option>
+                                        <option value="State">Rangpur</option>
+                                        <option value="State">Dhaka</option>
+                                        <option value="State">Sylhet</option>
+                                        <option value="State">Jamalpur</option>
+                                    </select>
+                                </span>
+                                <span>
+                                    <label for="Zip">Zip</label><br>
+                                    <input type="number" id="Zip">
+                                </span>
+                            </span>
+                            <span class="info_liner">
+                                <span>
+                                    <label for="note">Note</label><br>
+                                    <textarea name="note" id="note" cols="30" rows="10"></textarea>
+                                </span>
+                            </span>
+                        </form>
+                    </div>
+                    <div class="order_summery">
+                        <h5>Your Order Summary</h5>
+                        <ol>
+                            <li><span>1x <a href="#">USB Speaker Portable</a></span><span>$ <a href="#">100.00</a></span></li>
+                            <li><span>1x <a href="#">Joystick Pro</a></span><span>$ <a href="#">100.00</a></span></li>
+                            <li><span>1x <a href="#">Smartphone 5G</a></span><span>$ <a href="#">100.00</a></span></li>
+                        </ol>
+                        <ol>
+                            <li><span>Subtotal</span><span>$ <a href="#">300.00</a></span></li>
+                            <li><span>Shopping</span><span>$ <a href="#">15.00</a></span></li>
+                            <li><span>Tax</span><span>$ <a href="#">10.00</a></span></li>
+                        </ol>
+                        <ol>
+                            <li><span>Total</span><span class="Total_price">$ <a href="#">325.00</a></span></li>
+                        </ol>
+                        <h5 class="Payment">Payment</h5>
+                        <ul>
+                            <li><a href="#">Credit Card</a></li>
+                            <li><a href="#">Bank Transfer</a></li>
+                            <li><a href="#">Paypal</a></li>
+                        </ul>
+                        <div class="chekcart">
+                            <a href="#">Checkout</a>
+                            <a href="mycart.html">Back to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- ==================================================================== -->
+
+                <!-- ==================================================================== -->
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- =========== MY COUPON PART ENDED ============ -->
+    <!-- =========== NEWSLATTER PART START ============ -->
+    <section id="Abnewslatter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="abMain_newslatter">
+                    <div class="ab_news_logo"><img src="photos/Newsletter.svg" alt="Newsletter"></div>
+                    <div class="ab_news_head">
+                        <h2>Join our newsletter now!</h2>
+                        <p>Register now and get our latest updates and promos.</p>
+                    </div>
+                     <div>
+                        <form action="#">
+                            <input type="email" placeholder="Enter your email">
+                            <button type="submit">join</button>
+                        </form>
+                     </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== NEWSLATTER PART END ============ -->
+        <!-- =========== FOOTER PART START ============ -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="foot_logo">
+                            <h2>Tronix</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                            <div class="foot_head">
+                                <ul class="ab_ftul">
+                                    <li> <span><img src="photos/Call.svg" alt="Call"></span> <a href="tel:+1234567890">+1234567890</a></li>
+                                    <li> <span><img src="photos/Email.svg" alt="Email"></span> <a href="mailto:support@tronix.com">+support@tronix.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="foot_head">
+                            <h2>Company</h2>
+                            <ul>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="product.html">Product</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="bloglist.html">Blog</a></li>
+                                <li><a href="#">careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="foot_head">
+                            <h2>Information</h2>
+                            <ul>
+                                <li><a href="#">Help Center </a></li>
+                                <li><a href="#">Payment Methods</a></li>
+                                <li><a href="#">Return & Refund</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="foot_head">
+                            <h2>Follow Us</h2>
+                            <ul class="abflow">
+                                <li><a href="#"><img src="photos/instagram.svg" alt="instagram"></a></li>
+                                <li><a href="#"><img src="photos/twitter.svg" alt="twitter"></a></li>
+                                <li><a href="#"><img src="photos/facebook.svg" alt="facebook"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="main_copyright ab_cpr">
+                            <div class="copyR">
+                                <p>Copyright © 2021 <a href="#">Tronix</a>. All Right Reseved</p>
+                            </div>
+                            <div class="payment">
+                                <ul>
+                                    <li><a href="#"><img src="photos/master.svg" alt="mastercard"></a></li>
+                                    <li><a href="#"><img src="photos/Visa.svg" alt="Visa"></a></li>
+                                    <li><a href="#"><img src="photos/paypal.svg" alt="paypal"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+        <!-- =========== FOOTER PART END ============ -->
+<script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+<script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+<script src="js/cdn.jsdelivr.net_npm_slick-carousel@1.8.1_slick_slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#footer{
+    padding: 73px 0 0px;
+    background-color: rgba(244, 106, 91, 0.057);
+    .foot_logo{
+        h2{
+            @include head ($ff: $primary_font , $fs: 36px, $fw: 600, $clr: $primary_color)
+        }
+        p{
+            padding: 16px 0 48px;
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+            width: 90%;
+        }
+        ul{
+            display: flex;
+            gap: 24px;
+            li{
+                a{
+                    img{
+                        background-color: $brand_color;
+                        border-radius: 8px;
+                    }
+                }
+            }
+        }
+    }
+    .foot_head{
+        h2{
+            @include head ($ff: $primary_font , $fs: 24px, $fw: 600, $clr: $primary_color) 
+        }
+        ul{
+            margin-top: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            li{
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color)
+                }
+            }
+        }
+        .ab_ftul{
+            margin: 0;
+        }
+        .abflow{
+            display: flex;
+            flex-direction: row;
+            li{
+                a{
+                    background-color: $brand_color;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+    .main_copyright{
+        margin-top: 151px;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        .copyR{
+            p{
+                @include descrip ($ff: $primary_font, $fs: 14px, $fw: 400, $clr: $primary_color);
+                a{
+                    color: $primary_color;
+                }
+            }
+        }
+        .payment{
+            ul{
+                display: flex;
+                gap: 16px;
+                margin: 0;
+            }
+        }
+    }
+    .ab_cpr{
+        border-top: 2px solid $secondery_color;
+    }
+}

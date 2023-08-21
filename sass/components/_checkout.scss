@@ -1,0 +1,157 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#Checkout{
+    padding: 20px 0 70px;
+    .Checkout_head{
+        text-align: center;
+        margin-top: 50px;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 48px, $fw: 700, $clr: $primary_color)
+        }
+    }
+    .cart_step{
+        margin-top: 72px;
+        display: flex;
+        justify-content: center;
+        gap: 270px;
+        position: relative;
+        &::after{
+            content: "";
+            width: 21%;
+            height: 2px;
+            background-color: #000;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-54%, -50%);
+        }
+        li{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+            display: flex;
+            gap: 10px;
+            a{
+                text-align: center;
+                line-height: 30px;
+                width: 30px;
+                height: 30px;
+                border: 1px solid $primary_color;
+                border-radius: 50%;
+                color: $primary_color;
+            }
+        }
+        .step1{
+            color: $brand_color;
+            a{
+                color: $brand_color;
+                border: 1px solid $brand_color;
+            }
+        }
+    }
+    .Checkout_details{
+        display: flex;
+        gap: 32px;
+        .buyer_info{
+            margin-top: 80px;
+            width: 60%;
+            h5{
+                @include head ($ff: $secondery_font , $fs: 18px, $fw: 500, $clr: $primary_color);
+                border-bottom: 2px solid $secondery_color;    
+                padding-bottom: 32px;
+            }
+            form{
+                .info_liner{
+                    margin-top: 20px;
+                    display: flex;
+                    gap: 32px;
+                    span{
+                        width: 50%;
+                        label{
+                            margin-bottom: 10px;
+                            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color)
+                        }
+                        input{
+                            width: 100%;
+                        }
+                        select{
+                            width: 100%;
+                        }
+                        textarea{
+                            width: 199%;
+                            height: 50%;
+                        }
+                    }
+                }
+            }
+        }
+        .order_summery{
+            margin-top: 85px;
+            width: 40%;
+            padding: 27px;
+            border: 1px solid $secondery_color;
+            border-radius: 8px;
+            h5{
+                @include descrip ($ff: $primary_font, $fs: 24px, $fw: 600, $clr: $primary_color);
+                text-align: center;
+            }
+            .Payment{
+                text-align: left;
+            }
+            ol{
+                margin-top: 42px;
+                padding-bottom: 30px;
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                border-bottom: 2px solid $secondery_color;
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                    span{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                        a{
+                            color: $primary_color;
+                        }
+                    }
+                    .Total_price{
+                        color: $brand_color;
+                        a{
+                            color: $brand_color;
+                        }
+                    }
+                }
+            }
+            ul{
+                margin-top: 32px;
+                display: flex;
+                justify-content: space-between;
+                li{
+                    a{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                        padding: 10px;
+                        border: 1px solid $primary_color;  
+                        border-radius: 8px;
+                        transition: .3s;
+                        &:hover{
+                            color: white;
+                            background-color: black;
+                        }
+                    }
+                }
+            }
+            .chekcart{
+                a{
+                    display: block;
+                    text-align: center;
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $primary_color);
+                    padding: 10px 0;
+                    border-radius: 8px;
+                    transition: .3s;
+                    &:hover{
+                        color: white;
+                        background-color: $brand_color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#toprate{
+    padding: 160px 0;
+    .rated_top{
+        display: flex;
+        justify-content: space-between;
+        .reated_head{
+            h2{
+                @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color)
+            }
+        }
+        .reated_slid_btn{
+          display: flex;
+          margin-top: 50px;
+          gap: 150px;
+            .rate_left_slid{
+                i{
+                  color: $secondery_color;
+                  padding: 10px;
+                  &:hover{
+                    color: $brand_color;
+                  }
+                }
+            }
+            .rate_right_slid{
+                i{
+                  color: $secondery_color;
+                  padding: 10px;
+                  &:hover{
+                    color: $brand_color;
+                  }
+                }
+            }
+        }
+    }
+    .rated_slider{
+        .slick-dots{
+            position: absolute;
+            top: -8%;
+            right: 5%;
+            display: flex;
+            gap: 5px;
+            button{
+              font-size: 0;
+              border: none;
+              height: 10px;
+              width: 10px;
+              background-color: $secondery_color;
+              border-radius: 50%;
+            }
+            .slick-active{
+              button{
+  
+                background-color: $brand_color;
+              }
+            }
+          }
+        .rated_item{
+            padding: 17px;
+            text-align: center;
+            border: 1px solid $secondery_color;
+            border-radius: 32px;
+            margin: 0 15px;
+            img{
+                width: 100%;
+            }
+            h3{
+                a{
+
+                    @include descrip ($ff: $primary_font, $fs: 20px, $fw: 400, $clr: $primary_color);
+                    padding-top: 32px;
+                }
+            }
+            a{
+                @include descrip ($ff: $primary_font, $fs: 24px, $fw: 700, $clr: $brand_color);
+            }
+            .reating{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                padding: 24px 0;
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 24px, $fw: 500, $clr: $secondery_color);
+                }
+                ul{
+                    display: flex;
+                    margin: 0;
+                    gap: 4px;
+                    li{
+                        a{
+                            font-size: 18px;
+                            color: #FFD687;
+                        }
+                    }
+                }
+            }
+            .toprate_btn{
+                @include descrip ($ff: $primary_font, $fs: 24px, $fw: 400, $clr: #fff);
+                padding: 11.5px 28px;
+                background-color: $brand_color;
+                border-radius: 8px;
+                transition: .3s;
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                }
+            }
+        }
+    }
+}

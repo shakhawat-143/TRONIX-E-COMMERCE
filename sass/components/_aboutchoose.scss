@@ -1,0 +1,26 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#choose{
+    .choose_head{
+        h2{
+            @include  head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color);
+            text-align: center;
+        }
+    }
+    .choose_parpuse{
+        display: flex;
+        gap: 30px;
+        padding-top: 80px;
+        .parpuse_item{
+            width: 25%;
+            text-align: center;
+            h3{
+                @include descrip ($ff: $primary_font, $fs: 22px, $fw: 500, $clr: $primary_color);
+                padding: 32px 0 8px;
+            }
+            p{
+                @include descrip ($ff: $primary_font, $fs: 14px, $fw: 400, $clr: $secondery_color);
+            }
+        }
+    }
+}

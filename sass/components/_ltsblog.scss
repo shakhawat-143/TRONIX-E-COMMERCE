@@ -1,0 +1,387 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#ltsBlog{
+    padding: 48px 0 160px;
+    .Ltsblog_head{
+        text-align: center;
+        padding-bottom: 80px;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 48px, $fw: 700, $clr: $primary_color);
+        }
+        p{
+           @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+           margin: 24px auto 0;
+           width: 55%;
+        }
+    }
+    .main_ltsblog{
+        display: flex;
+        gap: 32px;
+        position: relative;
+        .lts_sldprev{
+            position: absolute;
+            bottom: 11%;
+            left: 57%;
+            z-index: 1;
+            i{
+                padding: 10px;
+                &:hover{
+                    color: $brand_color;
+                }
+            }
+        }
+        .lts_sldnext{
+            position: absolute;
+            bottom: 11%;
+            right: 20%;
+            i{
+                padding: 10px;
+                &:hover{
+                    color: $brand_color;
+                }
+            }
+        }
+        .slick-dots{
+            display: flex;
+            gap: 16px;
+            position: absolute;
+            bottom: 9%;
+            right: 40%;
+            li{
+                button{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                    padding: 12px;
+                    border-radius: 8px;
+                    border: 1px solid $secondery_color;
+                }
+            }
+            .slick-active{
+                button{
+                    color: white;
+                    background-color: $brand_color;
+                }
+            }
+        }
+        .ltsblog_founder{
+            width: 30%;
+            form{
+                padding: 13px 0 13px 19px;
+                width: 100%;
+                border: 2px solid #D0D0D2;
+                border-radius: 8px;
+                button{
+                    border: none;
+                    background-color: transparent;
+                    color: #D0D0D2;
+                }
+                input{
+                    border: none;
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400);
+                    width: 80%;
+                    &::placeholder{
+                        color: #D0D0D2;
+                    }
+                }
+            }
+            .ltsBlog_catagori{
+                padding: 13px 0 13px 19px;
+                width: 100%;
+                border: 2px solid #D0D0D2;
+                border-radius: 16px;
+                margin: 32px 0;
+                h3{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 700, $clr: $primary_color);
+                }
+                ul{
+                    margin-top: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+                    li{
+                        a{
+                            display: flex;
+                            align-items: center;
+                            gap: 6px;
+                            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                        }
+                    }
+                }
+            }
+            .ltsBlog_Tags{
+                padding: 13px 0 13px 19px;
+                width: 100%;
+                border: 2px solid #D0D0D2;
+                border-radius: 16px;
+                margin: 32px 0;
+                h3{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 700, $clr: $primary_color);
+                }
+                ul{
+                    margin-top: 16px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 8px;
+                    li{
+                        a{
+                            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                            padding: 16px;
+                            border: 1.5px solid #D0D0D2;
+                            border-radius: 8px;
+                        }
+                    }
+                }
+            }
+            .ltsBlog_ResntPost{
+                padding: 13px 0 13px 19px;
+                width: 100%;
+                border: 2px solid #D0D0D2;
+                border-radius: 16px;
+                margin: 32px 0;
+                h3{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 700, $clr: $primary_color);
+                }
+                .resntpost_profile{
+                    margin-top: 32px;
+                    display: flex;
+                    gap: 32px;
+                    width: max-content;
+                    .resntpost_profile_txt{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        gap: 16px;
+                        h4{
+                            @include descrip ($ff: $primary_font, $fs: 14px, $fw: 700, $clr: $primary_color);
+                            width: 59%;
+                        }
+                        p{
+                            @include descrip ($ff: $primary_font, $fs: 14px, $fw: 400, $clr: $primary_color);
+                            a{
+                                color: $brand_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .Ltsblog_posts{
+            width: 70%;
+            padding: 20px;
+            .ltsblog_item{
+                display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+                margin: 10px 0;
+                .ltsblg{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    width: 32.333%;
+                    border-bottom-left-radius: 16px;
+                    border-bottom-right-radius: 16px;
+                    img{
+                        width: 100%;
+                    }
+                    .lts_blgtxt{
+                        padding: 32px;
+                        h4{
+                            @include descrip ($ff: $primary_font, $fs: 12px, $fw: 700, $clr: $primary_color);
+                        }
+                        p{
+                            @include descrip ($ff: $primary_font, $fs: 11px, $fw: 400, $clr: $primary_color);
+                            line-height: 32px;
+                            padding: 16px 0 20px;
+                        }
+                        .blgtxt_date{
+                            @include descrip ($ff: $primary_font, $fs: 11px, $fw: 400, $clr: $primary_color);
+                            padding: 0;
+                            a{
+                                color: $primary_color;
+                            }
+                            .blgtxt_date_adnim{
+                                color: $brand_color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .Ltsblog_posd{
+            h4{
+                @include head ($ff: $secondery_font , $fs: 36px, $fw: 700, $clr: $primary_color);
+            }
+            ul{
+                display: flex;
+                gap: 24px;
+                margin: 0;
+                padding: 16px 0 40px;
+                li{
+                    input{
+                        border: none;
+                        flex-direction: row-reverse;
+                        gap: 8px;
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color)
+                    }
+                    display: flex;
+                    gap: 8px;
+                    align-items: center;
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color)
+                }
+            }
+            .byAdminOne{
+                width: 100%;
+            }
+            p{
+                @include descrip ($ff: $primary_font, $fs: 12px, $fw: 400, $clr: $primary_color);
+                line-height: 32px;
+                padding: 40px 0;
+                span{
+                    display: block;
+                    margin-top: 30px;
+                }
+                .lecture{
+                    background-color: $brand_color;
+                    color: #FAFAFA;
+                    padding: 10px 20px 20px;
+                    border-radius: 8px;
+                    .lecturer{
+                        font-weight: 700;
+                        color: white;
+                    }
+                }
+            }
+            .blog_tags{
+                padding: 15px 10px;
+                border: 1px solid $secondery_color;
+                border-radius: 8px;
+                display: flex;
+                justify-content: space-between;
+                .tags,.share{
+                    display: flex;
+                    gap: 16px;
+                    h5{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 700, $clr: $primary_color); 
+                    }
+                    ul{
+                        padding: 0;
+                        li{
+                            a{
+                                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color); 
+                            }
+                        }
+                    }
+                }
+            }
+            h4{
+                @include descrip ($ff: $primary_font, $fs: 24px, $fw: 700, $clr: $primary_color);
+                padding: 40px 0 32px; 
+            }
+            .relateded{
+                display: flex;
+                gap: 10px;
+                .related_item{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    border-top-left-radius: 32px;
+                    border-top-right-radius: 32px;
+                    border-bottom-left-radius: 16px;
+                    border-bottom-right-radius: 16px;
+                    width: 33.333%;
+                    img{
+                        width: 100%;
+                    }
+                    .related_txt{
+                        padding: 32px;
+                        h5{
+                            @include descrip ($ff: $primary_font, $fs: 15px, $fw: 700, $clr: $primary_color);
+                            padding-bottom: 32px;
+                        }
+                        ul{
+                            padding: 0;
+                            li{
+                                @include descrip ($ff: $primary_font, $fs: 14px, $fw: 400, $clr: $primary_color);
+                                a{
+                                    color: $brand_color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .comments{
+                padding: 40px 0;
+                h3{
+                    @include descrip ($ff: $primary_font, $fs: 24px, $fw: 700, $clr: $primary_color);
+                    text-transform: capitalize;
+                    padding-bottom: 32px;
+                }
+                .main_comment{
+                    .comn_profile{
+                        display: flex;
+                        gap: 16px;
+                        img{
+                            width: 9%;
+                        }
+                        ul{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            padding: 0;
+                            li{
+                                .main_cimmenter{
+                                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 700, $clr: $primary_color);
+                                }
+                                a{
+                                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                                }
+                            }
+                        }
+                    }
+                    p{
+                        @include descrip ($ff: $primary_font, $fs: 12px, $fw: 400, $clr: $primary_color);
+                    }
+                }
+            }
+            .leave_comment{
+                h3{
+                    @include descrip ($ff: $primary_font, $fs: 24px, $fw: 700, $clr: $primary_color);
+                    padding-bottom: 32px;
+                }
+                form{
+                    label{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                    }
+                    textarea{
+                        height: 90px;
+                        width: 100%;
+                        border: 1px solid $secondery_color;
+                    }
+                    .Nmail{
+                        display: flex;
+                        gap: 33px;
+                        margin-top: 20px;
+                        .commenter_name{
+                            width: 50%;
+                            input{
+                                 border: 1px solid $secondery_color;
+                                 width: 100%;
+                            }
+                        }
+                        .commenter_mail{
+                            width: 50%;
+                            input{
+                                 border: 1px solid $secondery_color;
+                                 width: 100%;
+                            }
+                        }
+                    }
+                    button{
+                        border: none;
+                        background-color: $brand_color;
+                        margin-top: 32px;
+                        margin-left: 82%;
+                        padding: 10px 32px;
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: #fff);
+                    }
+                }
+            }
+        }
+    }
+}

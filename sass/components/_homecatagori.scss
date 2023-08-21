@@ -1,0 +1,31 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#catagory{
+    padding: 80px 0 160px;
+    .cata_head{
+        h2{
+            @include head ($ff: $secondery_font , $fs: 36px, $fw: 700, $clr: $primary_color);
+        }
+    }
+    .catagories{
+        margin-top: 32px;
+        display: flex;
+        gap: 32px;
+        .cata_item{
+            width: max-content;
+            display: flex;
+            align-items: center;
+            padding: 5px 8px;
+            border: 2px solid $secondery_color;
+            border-radius: 8px;
+            img{
+                width: 22px;
+            }
+            p{
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 11px, $fw: 400, $clr: $primary_color);
+                }
+            }
+        }
+    }
+}

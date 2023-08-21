@@ -1,0 +1,99 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#profile{
+    padding: 80px 0;
+    background-color: #f6f6f6;
+    .main_profile{
+        padding: 50px;
+        background-color: #fff;
+        border: 2px solid $secondery_color;
+        border-radius: 16px;
+        display: flex;
+        .sort_profile_menu{
+            width: 24%;
+            h2{
+                @include  head ($ff: $secondery_font , $fs: 36px, $fw: 700, $clr: $primary_color);
+                padding-bottom: 30px;
+            }
+            ul{
+                display: block;
+                border: none;
+                margin: 0;
+                position: relative;
+                &::after{
+                    content: '';
+                    width: 2px;
+                    height: 100%;
+                    background-color: $secondery_color;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+                li{
+                    button{
+                        border: none;
+                        padding: 10px 0;
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color)
+                    }
+                    .active{
+                        color: $brand_color;
+                    }
+                }
+            }
+        }
+        .tab-content{
+            width: 75%;
+            margin-left: 40px;
+            .account_details{
+                h2{
+                    @include  head ($ff: $secondery_font , $fs: 36px, $fw: 700, $clr: $primary_color);
+                }
+                p{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                    padding: 16px 0 40px;
+                    a{
+                        color: $brand_color;
+                    }
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+                    .liner_form{
+                        display: flex;
+                        gap: 55px;
+                        span{
+                            width: 50%;
+                            label{
+                                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                                display: block;
+                                padding-bottom: 16px;
+                            }
+                            input{
+                                width: 100%;
+                                border: 1.5px solid $secondery_color;
+                                padding: 5px 0;
+                                border-radius: 8px;
+                            }
+                        }
+                    }
+                    .save_btn{
+                        justify-content: end;
+                        button{
+                            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $primary_color);
+                            padding: 10px 50px;
+                            border: 2px solid $brand_color;
+                            border-radius: 8px;
+                            background-color: transparent;
+                            transition: .3s;
+                            &:hover{
+                                background-color: $brand_color;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

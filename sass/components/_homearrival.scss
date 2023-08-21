@@ -1,0 +1,55 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#arrival{
+    padding: 0 0 160px 0;
+    .arrival_head{
+        text-align: center;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color);
+        }
+        p{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+            width: 43%;
+            line-height: 32px;
+            margin:  24px auto 0;
+        }
+    }
+    .main_arrival{
+        display: flex;
+        gap: 32px;
+        padding-top: 80px;
+        .arrival_item{
+            width: 33.333%;
+            text-align: center;
+            border: 1px solid $secondery_color;
+            border-radius: 20px;
+            z-index: 1;
+            position: relative;
+            img{
+                width: 100%;
+                z-index: -1;
+            }
+            h3{
+                a{
+
+                    @include descrip ($ff: $primary_font, $fs: 24px, $fw: 400, $clr: $primary_color);
+                    padding: 32px 0 8px;
+                }
+            }
+            a{
+                @include descrip ($ff: $primary_font, $fs: 24px, $fw: 500, $clr: $brand_color);
+                padding-bottom: 32px;
+            }
+            .ariv_bach{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: white);
+                text-transform: uppercase;
+                padding: 13px 7px;
+                background-color: $brand_color;
+                border-radius: 50%;
+            }
+        }
+    }
+}

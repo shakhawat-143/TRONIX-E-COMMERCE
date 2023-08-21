@@ -1,0 +1,186 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#Login{
+    background-color: #f6f6f6;
+    padding: 80px 0;
+    .create_account{
+        padding: 60px;
+        border: 2px solid $secondery_color;
+        border-radius: 16px;
+        background-color: #fff;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 48px, $fw: 700, $clr: $primary_color);
+        }
+        p{
+            @include descrip ($ff: $primary_font, $fs: 16px, $fw: 400, $clr: $secondery_color);
+            padding: 24px 0 64px;
+        }
+        #form{
+            .form-control{
+                margin: 0 0 10px 0;
+                padding: 0 0 20px 0;
+                border: none;
+                position: relative;
+                label{
+                    display: block;
+                    margin-bottom: 5px;
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                }
+                input {
+                    border-radius: 6px;
+                    background: var(--primary-color);
+                    min-height: 2.618em;
+                    display: block;
+                    width: 100%;
+                    font-size: 14px;
+                    padding: 10px 10px 10px 40px;
+                    border: 2px solid $secondery_color;
+                    &::placeholder{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                    }
+                  }
+                i{
+                    position: absolute;
+                    top: 46%;
+                    left: 3%;
+                    color: $brand_color;
+                }
+            }
+            small {
+              color: #fc465c;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              visibility: hidden;
+            }
+            
+            .error small {
+              visibility: visible;
+            }
+            button {
+             @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+              cursor: pointer;
+              border: 2px solid $brand_color;
+              font-size: 16px;
+              padding: 0.618em 1.2em;
+              border-radius: 0.4em;
+              display: block;
+              margin-top: 1.2em;
+              width: 100%;
+              background-color: transparent;
+              transition: .3s;
+              &:hover{
+                background-color: $brand_color;
+                color: #fff;
+              }
+            }
+        }
+    }
+    .login_account{
+        padding: 60px;
+        border: 2px solid $secondery_color;
+        border-radius: 16px;
+        background-color: #fff; 
+        h2{
+            @include head ($ff: $secondery_font , $fs: 48px, $fw: 700, $clr: $primary_color);
+        }
+        p{
+            @include descrip ($ff: $primary_font, $fs: 16px, $fw: 400, $clr: $secondery_color);
+            padding: 24px 0 64px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            .form-group{
+                position: relative;
+                label{
+                    display: block;
+                    margin-bottom: 5px;
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                }
+                i{
+                    position: absolute;
+                    top: 60%;
+                    left: 3%;
+                    color: $brand_color;
+                }
+                .lock{
+                    position: absolute;
+                    top: 60%;
+                    left: 3%;
+                    color: $brand_color;
+                }
+                .eyes{
+                    .eye{
+                        position: absolute;
+                        top: 60%;
+                        right: 3%;
+                        color: $brand_color;
+                    }
+                }
+                input {
+                    border-radius: 6px;
+                    background: var(--primary-color);
+                    min-height: 2.618em;
+                    display: block;
+                    width: 100%;
+                    font-size: 14px;
+                    padding: 10px 10px 10px 40px;
+                    border: 2px solid $secondery_color;
+                    &::placeholder{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                    }
+                }
+            }
+            button{
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $primary_color);
+                margin: 64px 0 32px;
+                width: 100%;
+                padding: 10px 0;
+                border: 2px solid $brand_color;
+                border-radius: 16px;
+                background-color: transparent;
+                &:hover{
+                    color: #fff;
+                    background-color: $brand_color;
+                }
+            }
+            .remember_forgot{
+                display: flex;
+                justify-content: space-between;
+                label{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                }
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $brand_color)
+                }
+            }
+        }
+        .logwith{
+            margin-top: 48px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            h3{
+                @include  head ($ff: $secondery_font , $fs: 24px, $fw: 700, $clr: $primary_color);
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                margin: 0;
+                li{
+                    a{
+                        font-size: 25px;
+                        color: $secondery_color;
+                        transition: .3s;
+                        &:hover{
+                            color: $brand_color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

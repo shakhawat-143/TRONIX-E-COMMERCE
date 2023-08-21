@@ -1,0 +1,23 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#tronix{
+    padding: 48px 0 160px;
+    .tron_head{
+        text-align: center;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color);
+            text-transform: capitalize;
+        }
+        p{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+            width: 95%;
+            margin: 0 auto;
+            padding: 32px 0 80px;
+        }
+    }
+    .tron_img{
+        img{
+            width: 100%;
+        }
+    }
+}

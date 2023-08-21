@@ -1,0 +1,599 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#allcatagories{
+   padding: 48px 0 160px;
+   .allcata_head{
+    text-align: center;
+    h2{
+        @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color);
+    }
+    .searchbx{
+      margin-top: 48px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      a{
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 7px;
+        border-radius: 8px;
+      }
+      form{
+        display: flex;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 8px;
+        width: 40%;
+        position: relative;
+        input{
+          padding: 7px 35px 7px 7px;
+          border: none;
+          width: 100%;
+        }
+        button{
+          border: none;
+          padding: 7px;
+          background-color: $brand_color;
+          position: absolute;
+          top: 0;
+          right: 0;
+        }
+      }
+    }
+    p{
+        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+        width: 53%;
+        margin: 0 auto;
+        padding: 24px 0 80px;
+      }
+      .ltssearch{
+      @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+      margin: 0 auto;
+      padding: 20px 0;
+
+    }
+    ul{
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      padding-bottom: 80px;
+      li{
+        p{
+          @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+          margin: 0;
+          padding: 16px;
+          background-color: rgba(208, 208, 210, 0.501);
+          width: max-content;
+          border-radius: 8px;
+        }
+      }
+    }
+   }
+   .main_catagori{
+    display: flex;
+    gap: 32px;
+    .allcata_short{
+        width: 30%;
+        padding: 32px;
+        border: 1px solid $secondery_color;
+        border-radius: 8px;
+        height: min-content;
+        h3{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 700, $clr: $primary_color);
+            padding-bottom: 32px;
+        }
+        ul{
+            height: 457px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            li{
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                    span{
+                        color: $secondery_color;
+                    }
+                }
+            }
+        }
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+         
+        ::-webkit-scrollbar-track {
+            background-color: #ebebeb;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: $brand_color; 
+        }
+        .mrgnt{
+
+          border-top: 1px solid $secondery_color;
+        }
+        .filterby{
+            margin-top: 30px;
+        }
+        .SRTfilter{
+          margin-top: 56px;
+          text-align: center;
+          a{
+            @include descrip ($ff: $primary_font, $fs: 13px, $fw: 400, $clr: #fff); 
+            padding: 16.5px 100.5px;
+            background-color: $brand_color;
+          }
+          button{
+            margin-top: 32px;
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $brand_color);
+            border: none; 
+            background: transparent;
+            padding: 10px;
+          }
+        }
+    }
+    .allcata_extract{
+      width: 70%;
+        .allcatagories_group{
+          .allcatagories_item{
+            display: flex;
+            gap: 36px;
+            margin-bottom: 15px;
+            .ctalist{
+              width: 160px;
+              padding-top: 10px;
+              border: 2px solid #ded2d2;
+              border-radius: 8px;
+              text-align: center;
+              a{
+                @include descrip ($ff: $primary_font, $fs: 13px, $fw: 400, $clr: $primary_color);
+                padding: 10px 0;
+                display: block;
+              }
+            }
+          }
+        }
+        .fcr_dbrnd{
+          h3{
+            @include head ($ff: $secondery_font , $fs: 24px, $fw: 700, $clr: $primary_color);
+            padding: 80px 0 32px;
+          }
+          .featur_brand{
+            display: flex;
+            gap: 59px;
+            img{
+              width: 75px;
+              opacity: 50%;
+            }
+          }
+        }
+        .product_empty{
+          margin-top: 10%;
+          text-align: center;
+          padding-bottom: 25%;
+          h3{
+            @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color);
+            padding: 32px 0 24px;
+          }
+          p{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+            width: 80%;
+            margin: 0 auto;
+          }
+        }
+        .product_list{
+          .product_list_head{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 0 32px;
+            h3{
+              display: inline-block;
+              @include head ($ff: $secondery_font , $fs: 24px, $fw: 700, $clr: $primary_color);
+            }
+            a{
+              @include descrip ($ff: $primary_font, $fs: 24px, $fw: 400, $clr: $brand_color);
+            }
+          }
+          .all_products{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            .all_prod_item{
+              padding: 32px;
+              border: 1px solid $secondery_color;
+              border-radius: 15px;
+              text-align: center;
+              width: min-content;
+              img{
+                width: 100%;
+              }
+              h4{
+                @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                padding: 22px 0 0;
+              }
+              a{
+                @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $brand_color);
+              }
+              ul{
+                margin: 24px 0 0;
+                display: flex;
+                gap: 50px;
+                justify-content: center;
+                position: relative;
+                &::after{
+                  content: '';
+                  width: 2px;
+                  height: 100%;
+                  background-color: #ececee;
+                  position: absolute;
+                  top: 0;
+                  right: 50%;
+                }
+                li{
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  img{
+                    width: 20px;
+                    height: 20px;
+                  }
+                  a{
+                    color: $secondery_color;
+                  }
+                  span{
+                    @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                  }
+                }
+              }
+              .addto_card{
+                margin-top: 24px;
+                display: flex;
+                gap: 16px;
+                align-items: center;
+                justify-content: center;
+                a{
+                  @include  descrip ($ff: $primary_font, $fs: 10px, $fw: 400, $clr: #fff);
+                  padding: 11.5px 28px;
+                  background-color: $brand_color;
+                  border-radius: 8px;
+                }
+                img{
+                  width: 13%;
+                }
+              }
+            }
+          }
+        }
+        .view_by{
+          display: flex;
+          justify-content: space-between;
+          p{
+            @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $secondery_color);
+            a{
+              color: $primary_color;
+            }
+          }
+          .sort_by{
+            display: flex;
+            gap: 26px;
+            i{
+              font-size: 30px;
+              color: $brand_color;
+            }
+            form{
+              label{
+                @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                select{
+                  border: none;
+                }
+              }
+            }
+          }
+        }
+        .Newest_product{
+          margin-top: 20px;
+          .Newest_product_itm{
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            img{
+              width: 20%;
+            }
+            .Newest_product_txt{
+              width: 50%;
+              ul{
+                width: 100%;
+                margin: 0;
+                li{
+                  @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                  img{
+                    width: 6%;
+                  }
+                  a{
+                    color: $secondery_color;
+                  }
+                }
+              }
+              h4{
+                @include  descrip ($ff: $primary_font, $fs: 24px, $fw: 500, $clr: $primary_color);
+                padding: 10px 0;
+              }
+              p{
+                @include  descrip ($ff: $primary_font, $fs:13px, $fw: 400, $clr: $secondery_color);
+              }
+              .hudai{
+                @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: #fff);
+                padding: 16.5px 32.5px;
+                background-color: $brand_color;
+                border-radius: 8px;
+                margin-top: 10px;
+              }
+            }
+            .Newest_product_price{
+              ul{
+                li{
+                  @include  descrip ($ff: $primary_font, $fs: 36px, $fw: 500, $clr: $brand_color);
+                  text-align: right;
+                  del{
+                    @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                  }
+                }
+              }
+              span{
+                a{
+                  @include  descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $brand_color);
+                }
+              }
+            }
+          }
+        }
+    }
+
+   }
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-border-color: none;
+    .accordion-item{
+        border: none;
+        .accordion-header{
+            button{
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $primary_color);
+                padding: 20px 0;
+            }
+        }
+    }
+}
+.accordion-body{
+    padding: 0px 0 20px;
+    border-bottom: 2px solid $secondery_color;
+}
+.filterby_locat{
+    input[type="checkbox"]:checked{
+            background-color: $brand_color !important;
+            color: white;
+          }
+}
+.accordion-button:not(.collapsed) {
+   color: $primary_color; 
+}
+
+
+
+
+/* This line can be removed it was just for display on CodePen: */
+
+  .slider-labels {
+    margin-top: 24px;
+    display: flex;
+  }
+  
+  /* Functional styling;
+   * These styles are required for noUiSlider to function.
+   * You don't need to change these rules to apply your design.
+   */
+  .noUi-target,.noUi-target * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -ms-touch-action: none;
+    touch-action: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .noUi-target {
+    position: relative;
+    direction: ltr;
+  }
+  
+  .noUi-base {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+  /* Fix 401 */
+  }
+  
+  .noUi-origin {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .noUi-handle {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .noUi-stacking .noUi-handle {
+  /* This class is applied to the lower origin when
+     its values is > 50%. */
+    z-index: 10;
+  }
+
+  .noUi-state-drag * {
+    cursor: pointer !important;
+  }
+  
+  /* Slider size and handle placement;
+   */
+  .noUi-horizontal {
+    height: 4px;
+  }
+  
+  .noUi-horizontal .noUi-handle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left: -7px;
+    top: -7px;
+    background-color: $brand_color;
+  }
+  
+  /* Styling;
+   */
+  .noUi-background {
+    background: #D6D7D9;
+  }
+  
+  .noUi-connect {
+    background: $brand_color;
+    -webkit-transition: background 450ms;
+    transition: background 450ms;
+  }
+  
+  .noUi-origin {
+    border-radius: 2px;
+  }
+  
+  .noUi-target {
+    border-radius: 2px;
+  }
+
+  
+  /* Handles and cursors;
+   */
+  .noUi-draggable {
+    cursor: w-resize;
+  }
+  
+  .noUi-vertical .noUi-draggable {
+    cursor: n-resize;
+  }
+  
+  .noUi-handle {
+    cursor: default;
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+  }
+  
+  .noUi-handle:active {
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+  }
+  
+  /* Disabled state;
+   */
+  [disabled].noUi-connect,[disabled] .noUi-connect {
+    background: #B8B8B8;
+  }
+  
+  [disabled].noUi-origin,[disabled] .noUi-handle {
+    cursor: not-allowed;
+  }
+.caption{
+    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $primary_color);
+    strong{
+        color: $secondery_color;
+        text-transform: capitalize;
+    }
+}
+
+
+
+
+
+// mixin, should display proportional checkbox based on relative font-size of container
+@mixin custom-checkbox($selector: 'label',$box-size: 1.1em) {
+  > input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+
+    &:checked + #{$selector} {
+      color: $brand_color;
+
+      &::before {
+        background: $brand_color;
+        border-color: $brand_color;
+      }
+
+      &::after {
+        transform: scale(1) rotate(-45deg);
+      }
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  > #{$selector} {
+    @content;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: all .1s;
+    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+    img{
+      width: 60px;
+    }
+    .filt_star{
+      width: 30px;
+    }
+    .filt_pay{
+      width: 30px;
+    }
+    &::before {
+      border: calc(1px + .06em) solid $secondery_color;
+      border-radius: calc(3px + .05em);
+      content: '';
+      display: inline-block;
+      font-size: $box-size;
+      height: calc(3px + .8em);
+      margin-right: calc(4px + .4em);
+      transition: all .1s;
+      vertical-align: middle;
+      width: calc(3px + .8em);
+    }
+
+    &::after {
+      border-bottom: calc(2px + .07em) solid #fff;
+      border-left: calc(2px + .07em) solid #fff;
+      content: '';
+      font-size: $box-size;
+      height: calc(3px + .22em);
+      left: calc(.25em - 1px);
+      position: absolute;
+      top: calc(61% - .1em - 3px);
+      transform: scale(0) rotate(-45deg);
+      transition: all .1s;
+      width: calc(5px + .32em);
+    }
+  }
+}
+
+// applied mixin to container, margin just for demo purposes
+div {
+  @include custom-checkbox;
+}
+

@@ -1,0 +1,94 @@
+
+@import '../mixins/mixin';
+@import '../variables/variables';
+nav{
+    .main_nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 36px 0;
+        .nav_search{
+            display: flex;
+            gap: 32px;
+            form{
+                display: flex;
+                .about_inp{
+                    padding: 10px 10px 11px 32px;
+                    background-color: #D0D0D2;
+                    border: none;
+                    border-top-left-radius: 8px;
+                    border-bottom-left-radius: 8px;
+                    &::placeholder{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                    }
+                }
+                button{
+                    padding: 10px;
+                    background-color: #D0D0D2;
+                    border: none;
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px; 
+                    background-color: $brand_color;   
+                    i{
+                        color: white;
+                    }   
+                }
+            }
+        }
+        .nav_signup{
+            display: flex;
+            align-items: center;
+            .shopping{
+                display: flex;
+                gap: 32px;
+                .shop{
+                    position: relative;
+                    a{
+                        @include descrip ($ff: $primary_font, $fs: 12px, $fw: 400, $clr: #fff);
+                        padding: 5px;
+                        color: white;
+                        background-color: $brand_color;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: -14px;
+                        right: -13px;
+                    }
+                }
+                i{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .about_menu{
+        ul{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 0;
+            li{
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+    .page_location{
+        ol{
+            li{
+                &::before{
+                    color: $secondery_color;
+                }
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $secondery_color);
+                }
+            }
+            .corrent_page{
+                a{
+                    color: $brand_color;
+                }
+            }
+        }
+    }
+}

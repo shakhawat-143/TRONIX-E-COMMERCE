@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="css/cdn.jsdelivr.net_npm_slick-carousel@1.8.1_slick_slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- =========== HEADER PART START ============ -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_head">
+                        <div class="head_icon">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="head_contact">
+                            <ul>
+                                <li><a href="tel:+1234567890"> <span><img src="photos/Call.svg" alt="Call"></span> +12 345 6789 0</a></li>
+                                <li><a href="mailto:support@tronix.com"> <span><img src="photos/Email.svg" alt="Email"></span> support@tronix.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- =========== HEADER PART END ============ -->
+    <!-- =========== NAV PART START ============ -->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_nav">
+                        <div class="nav_logo">
+                            <img src="photos/Tronix.png" alt="Tronix">
+                        </div>
+                        <div class="nav_search">
+                             <div class="dropdown dashboard">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="photos/dashboard.png" alt="dashboard">
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="account.html">Account</a></li>
+                                  <li><a class="dropdown-item" href="mycart.html">My Cart</a></li>
+                                  <li><a class="dropdown-item" href="catagories.html">Catagories</a></li>
+                                  <li><a class="dropdown-item" href="bloglist.html">Blog list</a></li>
+                                  <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                  <li><a class="dropdown-item" href="login.html">Login/Signup</a></li>
+                                </ul>
+                              </div>
+                            <form action="#">
+                                <input type="search" placeholder="Search here">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                        <div class="nav_signup">
+                            <div class="shopping">
+                               <div class="shop"> <img src="photos/ShoppingBag.svg" alt="Shopping"><a href="#">99</a></div>
+                               <div><a href="#"><img src="photos/Emailb.svg" alt="Emailb"></a></div>
+                            </div>
+                            <div class="sign_login">
+                                <a href="login.html">sign in</a>
+                                <a href="login.html">sign up</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                   <div class="main_menu">
+                     <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="product.html">product</a></li>
+                        <li><a href="bloglist.html">blog</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                     </ul> 
+                  </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- =========== NAV PART END ============ -->
+    <!-- =========== BANNER PART START ============ -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                  <div class="main_banner">
+                    <div class="main_slider">
+                        <div class="bnslid_lft"><i class="fa-solid fa-chevron-left"></i></div>
+                        <div class="banner_slider">
+                            <div class="bnr_slid_item"><img src="photos/bannerbg.png" alt="bannerbg"></div>
+                            <div class="bnr_slid_item"><img src="photos/bannerbg.png" alt="bannerbg"></div>
+                        </div>
+                        <div class="bnslid_rt"><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+                       <div class="banner_txt">
+                          <div class="banner_head">
+                            <h1>Better Devices for Better Life </h1>
+                          </div>
+                          <div class="banner_desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                            <a href="#">shop now</a>
+                          </div>
+                       </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== BANNER PART END ============ -->
+    <!-- =========== CATAGORIES PART END ============ -->
+    <section id="catagory">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cata_head">
+                        <h2>Category</h2>
+                    </div>
+                    <div class="catagories">
+                        <div class="cata_item">
+                          <img src="photos/Laptop.png" alt="Laptop">
+                          <p><a href="#">Computer & Laptop</a></p>
+                        </div>
+                        <div class="cata_item">
+                          <img src="photos/Smartphone.png" alt="Laptop">
+                          <p><a href="#">Mobile & Tablet</a></p>
+                        </div>
+                        <div class="cata_item">
+                          <img src="photos/Camera.png" alt="Laptop">
+                          <p><a href="#">Camera</a></p>
+                        </div>
+                        <div class="cata_item">
+                          <img src="photos/TvAndRemote.png" alt="Laptop">
+                          <p><a href="#">TV & Smart Box</a></p>
+                        </div>
+                        <div class="cata_item">
+                          <img src="photos/AirConditioner.png" alt="Laptop">
+                          <p><a href="#">Home Appliance</a></p>
+                        </div>
+                        <div class="cata_item">
+                          <img src="photos/Speaker.png" alt="Laptop">
+                          <p>Accessories</p>
+                        </div>
+                        <div class="cata_item">
+                          <img src="photos/Gamepad.png" alt="Laptop">
+                          <p><a href="catagories.html">Other Categories</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== CATAGORIES PART END ============ -->
+    <!-- =========== ARRIVAL PART START ============ -->
+    <section id="arrival">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="arrival_head">
+                        <h2>New Arrival</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
+                    </div>
+                    <div class="main_arrival">
+                        <div class="arrival_item">
+                            <img src="photos/arrivitm1.png" alt="arrivitm1">
+                            <h3><a href="singleproduct.html">Smartphone 5G</a></h3>
+                            <a href="#"><span>$</span>299</a>
+                            <a href="#" class="ariv_bach">new</a >
+                        </div>
+                        <div class="arrival_item">
+                            <img src="photos/arrivitm2.png" alt="arrivitm1">
+                            <h3><a href="singleproduct.html">Smart Tv</a></h3>
+                            <a href="#"><span>$</span>299</a>
+                            <a href="#" class="ariv_bach">new</a >
+                        </div>
+                        <div class="arrival_item">
+                            <img src="photos/arrivitm3.png" alt="arrivitm1">
+                            <h3><a href="singleproduct.html">USB Speaker Portable</a></h3>
+                            <a href="#"><span>$</span>299</a>
+                            <a href="#" class="ariv_bach">new</a >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== ARRIVAL PART END ============ -->
+    <!-- =========== FEATURED_PRODUCT PART START ============ -->
+    <section id="featured_product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="feature_head">
+                        <h2>Featured Products</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="main_feature_product">
+                         <h3><a href="singleproduct.html">Wireless Microphone</a></h3>
+                         <div class="featured_product_price">
+                            <span> <del>$29.99 </del></span>
+                            <a href="#">- $19.99</a>
+                         </div>
+                         <img src="photos/featuredspeaker.png" alt="featuredspeaker">
+                         <div class="countdown_timer">
+                            <ul>
+                                <li><p id="days"></p><span>Days</span></li>
+                                <li><p id="hours"></p><span>hours</span></li>
+                                <li><p id="mins"></p><span>munites</span></li>
+                                <li><p id="secs"></p><span>seconds</span></li>
+                            </ul>
+                            <h2 id="end"></h2>
+                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                   <div class="main_limited">
+                    <div class="feature_limited">
+                        <div class="limited_img"><img src="photos/featured2.png" alt="featured2"></div>
+                        <div class="limited_txt">
+                            <h4>limited offer</h4>
+                            <h3><a href="singleproduct.html">Smart Watch New Series</a></h3>
+                            <div class="featured_product_price">
+                                <span><del>$29.99</del> </span>
+                                <a href="#">- $19.99</a>
+                            </div>
+                            <div class="countdown_timer cdtmr2">
+                                <ul>
+                                    <li><p id="din"></p><span>Days</span></li>
+                                    <li><p id="gonta"></p><span>hours</span></li>
+                                    <li><p id="min"></p><span>munites</span></li>
+                                    <li><p id="sec"></p><span>seconds</span></li>
+                                </ul>
+                                <h2 id="en"></h2>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="feature_limited">
+                        <div class="limited_img"><img src="photos/featured3.png" alt="featured3"></div>
+                        <div class="limited_txt">
+                            <h4>limited offer</h4>
+                            <h3><a href="singleproduct.html">Smart Watch New Series</a></h3>
+                            <div class="featured_product_price">
+                                <span><del>$29.99</del> </span>
+                                <a href="#">- $19.99</a>
+                            </div>
+                            <div class="countdown_timer cdtmr2">
+                                <ul>
+                                    <li><p id="dy"></p><span>Days</span></li>
+                                    <li><p id="hy"></p><span>hours</span></li>
+                                    <li><p id="my"></p><span>munites</span></li>
+                                    <li><p id="sy"></p><span>seconds</span></li>
+                                </ul>
+                                <h2 id="ey"></h2>
+                             </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== FEATURED_PRODUCT PART END ============ -->
+    <!-- =========== COLLECTION PART START ============ -->
+    <section id="collection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="collection_head">
+                        <h2>our collections</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    </div>
+                    <div class="collections">
+                        <div class="collection_item">
+                            <img src="photos/collectionpic1.png" alt="collectionpic1">
+                            <div class="coll_txt">
+                                <h3>PC Gaming Collection</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+                            </div>
+                        </div>
+                        <div class="collection_item">
+                            <img src="photos/collectionpic2.png" alt="collectionpic2">
+                            <div class="coll_txt">
+                                <h3>Camera Collection</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== COLLECTION PART END ============ -->
+    <!-- =========== FLASHSALE PART START ============ -->
+    <section id="flashsale">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                   <div class="flash_top">
+                    <div class="flash_head"><h2>Flash Sale</h2></div>
+                    <div class="flash_slid_btn">
+                       <div class="flsh_left_slid"><i class="fa-solid fa-arrow-left-long"></i></div>
+                       <div class="flsh_right_slid"><i class="fa-solid fa-arrow-right-long"></i></div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="flash_banner">
+                        <img src="photos/flashsalebanner.png" alt="flashsalebanner">
+                        <div class="flash_bnr_txt">
+                            <p>Up to 30% Off!</p>
+                            <p class="flashtimedescrip">Sale End In:</p>
+                            <div class="countdown_timer">
+                                <ul>
+                                    <li><p id="fdays"></p><span>Days</span></li>
+                                    <li><p id="fhours"></p><span>hours</span></li>
+                                    <li><p id="fmins"></p><span>munites</span></li>
+                                    <li><p id="fsecs"></p><span>seconds</span></li>
+                                </ul>
+                                <h2 id="fend"></h2>
+                        </div>
+                    </div>
+                </div>
+               </div>
+                <div class="col-lg-9">
+                  <div class="flash_slider">
+                    <div class="flash_item">
+                        <img src="photos/flashsale1.png" alt="flashsale1">
+                        <div class="flash_item_txt">
+                            <h3><a href="singleproduct.html">Wireless Headphone</a></h3>
+                            <div class="flash_price">
+                                <del>$29.99</del>
+                                <a href="#">- $19.99</a>
+                            </div>
+                            <div class="flash_avilable">
+                                <span>Available: <a href="#">10</a></span>
+                                <span>Available: <a href="#">5</a></span>
+                            </div>
+                            <div class="flash_avilablity">
+                                <div class=" aviliblity_persent ">
+                                    <span class=" aviliblepersent inner "></span>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flash_item">
+                        <img src="photos/flashsale2.png" alt="flashsale1">
+                        <div class="flash_item_txt">
+                            <h3><a href="singleproduct.html">Air Purifier</a></h3>
+                            <div class="flash_price">
+                                <del>$29.99</del>
+                                <a href="#">- $19.99</a>
+                            </div>
+                            <div class="flash_avilable">
+                                <span>Available: <a href="#">10</a></span>
+                                <span>Available: <a href="#">5</a></span>
+                            </div>
+                            <div class="flash_avilablity">
+                                <div class=" aviliblity_persent ">
+                                    <span class=" aviliblepersent inner "></span>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flash_item">
+                        <img src="photos/flashsale3.png" alt="flashsale1">
+                        <div class="flash_item_txt">
+                            <h3><a href="singleproduct.html">Bluetooth Printer</a></h3>
+                            <div class="flash_price">
+                                <del>$29.99</del>
+                                <a href="#">- $19.99</a>
+                            </div>
+                            <div class="flash_avilable">
+                                <span>Available: <a href="#">10</a></span>
+                                <span>Available: <a href="#">5</a></span>
+                            </div>
+                            <div class="flash_avilablity">
+                                <div class=" aviliblity_persent ">
+                                    <span class=" aviliblepersent inner "></span>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flash_item">
+                        <img src="photos/flashsale1.png" alt="flashsale1">
+                        <div class="flash_item_txt">
+                            <h3><a href="singleproduct.html">Wireless Headphone</a></h3>
+                            <div class="flash_price">
+                                <del>$29.99</del>
+                                <a href="#">- $19.99</a>
+                            </div>
+                            <div class="flash_avilable">
+                                <span>Available: <a href="#">10</a></span>
+                                <span>Available: <a href="#">5</a></span>
+                            </div>
+                            <div class="flash_avilablity">
+                                <div class=" aviliblity_persent ">
+                                    <span class=" aviliblepersent inner "></span>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flash_item">
+                        <img src="photos/flashsale2.png" alt="flashsale1">
+                        <div class="flash_item_txt">
+                            <h3><a href="singleproduct.html">Air Purifier</a></h3>
+                            <div class="flash_price">
+                                <del>$29.99</del>
+                                <a href="#">- $19.99</a>
+                            </div>
+                            <div class="flash_avilable">
+                                <span>Available: <a href="#">10</a></span>
+                                <span>Available: <a href="#">5</a></span>
+                            </div>
+                            <div class="flash_avilablity">
+                                <div class=" aviliblity_persent ">
+                                    <span class=" aviliblepersent inner "></span>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flash_item">
+                        <img src="photos/flashsale3.png" alt="flashsale1">
+                        <div class="flash_item_txt">
+                            <h3><a href="singleproduct.html">Bluetooth Printer</a></h3>
+                            <div class="flash_price">
+                                <del>$29.99</del>
+                                <a href="#">- $19.99</a>
+                            </div>
+                            <div class="flash_avilable">
+                                <span>Available: <a href="#">10</a></span>
+                                <span>Available: <a href="#">5</a></span>
+                            </div>
+                            <div class="flash_avilablity">
+                                <div class=" aviliblity_persent ">
+                                    <span class=" aviliblepersent inner "></span>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+    </section>
+    <!-- =========== FLASHSALE PART END ============ -->
+    <!-- =========== TOP REATED PART START ============ -->
+    <section id="toprate">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                   <div class="rated_top">
+                    <div class="reated_head">
+                        <h2>Top Rated Product</h2>
+                    </div>
+                    <div class="reated_slid_btn">
+                        <div class="rate_left_slid"><i class="fa-solid fa-arrow-left-long"></i></div>
+                        <div class="rate_right_slid"><i class="fa-solid fa-arrow-right-long"></i></div>
+                    </div>
+                   </div>
+                   <div class="rated_slider">
+                     <div class="rated_item">
+                        <img src="photos/reateditem.png" alt="reateditem">
+                        <h3><a href="singleproduct.html">Smart Mop Robot</a></h3>
+                        <a href="#"><span>$</span>1000.00</a>
+                        <div class="reating">
+                            <a href="#">5.0</a>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toprate_btn">Add to Cart</a>
+                     </div>
+                     <div class="rated_item">
+                        <img src="photos/reateditem.png" alt="reateditem">
+                        <h3><a href="singleproduct.html">Smart TV HD</a></h3>
+                        <a href="#"><span>$</span>1000.00</a>
+                        <div class="reating">
+                            <a href="#">5.0</a>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toprate_btn">Add to Cart</a>
+                     </div>
+                     <div class="rated_item">
+                        <img src="photos/reateditem.png" alt="reateditem">
+                        <h3><a href="singleproduct.html">Surveillance Camera</a></h3>
+                        <a href="#"><span>$</span>1000.00</a>
+                        <div class="reating">
+                            <a href="#">5.0</a>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toprate_btn">Add to Cart</a>
+                     </div>
+                     <div class="rated_item">
+                        <img src="photos/reateditem.png" alt="reateditem">
+                        <h3><a href="singleproduct.html">Joystick Pro</a></h3>
+                        <a href="#"><span>$</span>1000.00</a>
+                        <div class="reating">
+                            <a href="#">5.0</a>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toprate_btn">Add to Cart</a>
+                     </div>
+                     <div class="rated_item">
+                        <img src="photos/reateditem.png" alt="reateditem">
+                        <h3><a href="singleproduct.html">Smart Mop Robot</a></h3>
+                        <a href="#"><span>$</span>1000.00</a>
+                        <div class="reating">
+                            <a href="#">5.0</a>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toprate_btn">Add to Cart</a>
+                     </div>
+                     <div class="rated_item">
+                        <img src="photos/reateditem.png" alt="reateditem">
+                        <h3><a href="singleproduct.html">Smart TV HD</a></h3>
+                        <a href="#"><span>$</span>1000.00</a>
+                        <div class="reating">
+                            <a href="#">5.0</a>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toprate_btn">Add to Cart</a>
+                     </div>
+                     <div class="rated_item">
+                        <img src="photos/reateditem.png" alt="reateditem">
+                        <h3><a href="singleproduct.html">Surveillance Camera</a></h3>
+                        <a href="#"><span>$</span>1000.00</a>
+                        <div class="reating">
+                            <a href="#">5.0</a>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toprate_btn">Add to Cart</a>
+                     </div>
+                     <div class="rated_item">
+                        <img src="photos/reateditem.png" alt="reateditem">
+                        <h3><a href="singleproduct.html">Joystick Pro</a></h3>
+                        <a href="#"><span>$</span>1000.00</a>
+                        <div class="reating">
+                            <a href="#">5.0</a>
+                            <ul>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-star"></i></a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="toprate_btn">Add to Cart</a>
+                     </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== TOP REATED PART END ============ -->
+    <!-- =========== BLOG PART START ============ -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="blog_head">
+                        <h2>blog</h2>
+                    </div>
+                    <div class="main_blogs">
+                        <div class="blog_item">
+                            <img src="photos/blogimage.png" alt="blogimage">
+                            <h3>We Offer the Best Quality Product to Our Customers</h3>
+                            <p>by <a href="#">Admin</a>, 12 jan 2021</p>
+                            
+                        </div>
+                        <div class="blog_item">
+                            <img src="photos/blogimage.png" alt="blogimage">
+                            <h3>We Offer the Best Quality Product to Our Customers</h3>
+                            <p>by <a href="#">Admin</a>, 12 jan 2021</p>
+                            
+                        </div>
+                        <div class="blog_item">
+                            <img src="photos/blogimage.png" alt="blogimage">
+                            <h3>We Offer the Best Quality Product to Our Customers</h3>
+                            <p>by <a href="#">Admin</a>, 12 jan 2021</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== BLOG PART END ============ -->
+    <!-- =========== NEWSLATTER PART START ============ -->
+    <section id="newslatter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_latter">
+                        <img src="photos/newslatterbg.png" alt="newslatterbg">
+                        <div class="latter_txt">
+                            <h2>Join our newsletter now!</h2>
+                            <p>Register now and get our latest updates and promos.</p>
+                            <form action="#">
+                                <input type="email" placeholder="Enter your email">
+                                <button type="submit">join</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_brands">
+                        <div class="brand_item"><img src="photos/SimSong.png" alt="SimSong"></div>
+                        <div class="brand_item"><img src="photos/Harps.png" alt="Harps"></div>
+                        <div class="brand_item"><img src="photos/DiskVan.png" alt="DiskVan"></div>
+                        <div class="brand_item"><img src="photos/Ikon.png" alt="Ikon"></div>
+                        <div class="brand_item"><img src="photos/Strons.png" alt="Strons"></div>
+                        <div class="brand_item"><img src="photos/Cocoon.png" alt="Cocoon"></div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== NEWSLATTER PART END ============ -->
+    <!-- =========== FOOTER PART START ============ -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="foot_logo">
+                        <h2>Tronix</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                        <ul>
+                            <li><a href="#"><img src="photos/instagram.svg" alt="instagram"></a></li>
+                            <li><a href="#"><img src="photos/twitter.svg" alt="twitter"></a></li>
+                            <li><a href="#"><img src="photos/facebook.svg" alt="facebook"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="foot_head">
+                        <h2>Company</h2>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="product.html">Product</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="bloglist.html">Blog</a></li>
+                            <li><a href="#">careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="foot_head">
+                        <h2>Information</h2>
+                        <ul>
+                            <li><a href="#">Help Center </a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                            <li><a href="#">Return & Refund</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="foot_head">
+                        <h2>Contact</h2>
+                        <ul>
+                            <li> <span><img src="photos/Call.svg" alt="Call"></span> <a href="tel:+1234567890">+1234567890</a></li>
+                            <li> <span><img src="photos/Email.svg" alt="Email"></span> <a href="mailto:support@tronix.com">+support@tronix.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="main_copyright">
+                        <div class="copyR">
+                            <p>Copyright © 2021 <a href="#">Tronix</a>. All Right Reseved</p>
+                        </div>
+                        <div class="payment">
+                            <ul>
+                                <li><a href="#"><img src="photos/master.svg" alt="mastercard"></a></li>
+                                <li><a href="#"><img src="photos/Visa.svg" alt="Visa"></a></li>
+                                <li><a href="#"><img src="photos/paypal.svg" alt="paypal"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========== FOOTER PART END ============ -->
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+    <script src="js/cdn.jsdelivr.net_npm_slick-carousel@1.8.1_slick_slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

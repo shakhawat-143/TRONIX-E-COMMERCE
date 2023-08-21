@@ -1,0 +1,148 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#myCart{
+    padding: 20px 0 70px;
+    .cart_head{
+        text-align: center;
+        margin-top: 50px;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 48px, $fw: 700, $clr: $primary_color)
+        }
+    }
+    .cart_step{
+        margin-top: 72px;
+        display: flex;
+        justify-content: center;
+        gap: 270px;
+        position: relative;
+        &::after{
+            content: "";
+            width: 21%;
+            height: 2px;
+            background-color: #000;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-54%, -50%);
+        }
+        li{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+            display: flex;
+            gap: 10px;
+            a{
+                text-align: center;
+                line-height: 30px;
+                width: 30px;
+                height: 30px;
+                border: 1px solid $primary_color;
+                border-radius: 50%;
+                color: $primary_color;
+            }
+        }
+        .step1{
+            color: $brand_color;
+            a{
+                color: $brand_color;
+                border: 1px solid $brand_color;
+            }
+        }
+    }
+    .cart_descript{
+        display: flex;
+        gap: 32px;
+        form{
+            width: 60%;
+            label {
+                display: flex;
+                border-bottom: 1px solid $brand_color;
+                padding: 42px 0 38px;
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $secondery_color);
+                &::after{
+                    display: none;
+                    border: none;
+                    content: none;
+                }
+                input{
+                    margin-right: 10px;
+                }
+                .cart_itm{
+                    display: flex;
+                    gap: 10px;
+                    .cart_txt{
+                        .cartH{
+                            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                            display: block;
+                        }
+                        a{
+                            @include descrip ($ff: $primary_font, $fs: 24px, $fw: 500, $clr: $brand_color);
+                        }
+                    }
+                }
+            }
+        }
+        .coupon_summery{
+            width: 40%;
+            .coupon{
+                margin-top: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                padding: 10px;
+                border: 2px solid $brand_color;
+                border-radius: 8px;
+                background-color: rgba(228, 224, 218, 0.258);
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 24px, $fw: 500, $clr: $primary_color);
+                }
+            }
+            .summery{
+                padding: 10px;
+                border: 2px solid $brand_color;
+                border-radius: 8px;
+                margin-top: 32px;
+                h5{
+                    @include descrip ($ff: $primary_font, $fs: 24px, $fw: 500, $clr: $primary_color);
+                }
+                .summery_price{
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 37px 0 57px;
+                    span{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $secondery_color);
+                    }
+                    a{
+                        @include descrip ($ff: $primary_font, $fs: 24px, $fw: 500, $clr: $brand_color);
+                    }
+                }
+                .Checkout{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $brand_color);
+                    width: 100%;
+                    padding: 5px 0;
+                    border-radius: 8px;
+                    text-align: center;
+                    transition: .3s;
+                    &:hover{
+                        color: white;
+                        background-color: $brand_color;
+                    }
+                }
+                .Continue_Shopping{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: $brand_color);
+                    width: 100%;
+                    margin-top: 15px;
+                    padding: 5px 0;
+                    border-radius: 8px;
+                    text-align: center;
+                    transition: .3s;
+                    &:hover{
+                        color: white;
+                        background-color: $brand_color;
+                    }
+                }
+            }
+        }
+    }
+    //================================
+    //================================
+}

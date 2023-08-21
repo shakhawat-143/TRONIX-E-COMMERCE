@@ -1,0 +1,59 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#newslatter{
+    padding: 160px 0 80px;
+    .main_latter{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .latter_txt{
+            position: absolute;
+            top: 15%;
+            left: 5%;
+            h2{
+                @include head ($ff: $secondery_font , $fs: 48px, $fw: 700, $clr: #fff);
+            }
+            p{
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                margin-top: 15px;
+            }
+            form{
+                margin-top: 56px;
+                display: flex;
+                position: relative;
+                input{
+                    border: none;
+                    border-top-left-radius: 8px;
+                    border-bottom-left-radius: 8px;
+                    padding: 16px 0 16px 32px;
+                    width: 80%;
+                    &::placeholder{
+
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                    }
+                }
+                button{
+                    border: none;
+                    border-radius: 20px;
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 700, $clr: #fff);
+                    padding: 15px 32.5px;
+                    background-color: $brand_color;
+                    position: absolute;
+                    top: 0;
+                    right: 13%;
+                }
+            }
+        }
+    }
+    .main_brands{
+        padding: 80px 85.5px 0;
+        display: flex;
+        justify-content: space-between;
+        .brand_item{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

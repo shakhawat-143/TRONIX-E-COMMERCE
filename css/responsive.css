@@ -1,0 +1,3490 @@
+/* ============================ HOMEPAGE RESPONSIVE START ====================== */
+/* ===================== EXTRA SMALL DEVICE RESPONSIVE START ================ */
+/* ================== HEADER START =============== */
+@media (max-width: 575.98px) { 
+header {
+	padding: 8px 0;
+}
+header .main_head {
+	border-bottom: 1px solid #A7A7A7;
+    padding-bottom: 3px;
+}
+header .main_head .head_icon ul {
+	gap: 10px;
+    margin: 0;
+}
+header .main_head .head_icon ul li a {
+	font-size: 10px;
+}
+header .main_head .head_contact ul {
+	gap: 10px;
+    margin: 0;
+}
+header .main_head .head_contact ul li a {
+    font-size: 7px;
+}
+header .main_head .head_contact ul li a span img{
+    width: 10px;
+}
+
+/* ================== HEADER ENDED =============== */
+/* ================== NAV PART START =============== */
+nav .main_nav {
+    padding: 5px 0;
+}
+nav .main_nav .nav_logo img{
+	width: 40px;
+}
+nav .main_nav .nav_search {
+	gap: 10px;
+    align-items: center;
+}
+nav .main_nav .nav_search .dashboard img {
+	padding: 2px;
+	width: 14px;
+}
+nav .main_nav .nav_search form input {
+	padding: 2px;
+    height: 20px;
+	width: 57px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+nav .main_nav .nav_search form input::placeholder{
+    font-size: 10px;
+}
+nav .main_nav .nav_search form button {
+	padding: 2px;
+    font-size: 7px;
+    height: 20px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+nav .main_nav .nav_signup .shopping {
+    gap: 10px;
+}
+nav .main_nav .nav_signup .shopping div a img{
+	width: 20px;
+}
+nav .main_nav .nav_signup .shopping .shop img{
+	width: 20px;
+}
+nav .main_nav .nav_signup .shopping .shop a {
+	font-size: 5px;
+	padding: 3px;
+	top: 0px;
+	right: -3px;
+}
+nav .main_nav .nav_signup .sign_login a {
+	font-size: 8px;
+    border-radius: 3px;
+	padding: 3.5px 10.5px;
+}
+nav .main_menu ul {
+	gap: 12px;
+	margin: 0;
+}
+nav .main_menu ul li a {
+	font-size: 9px;
+}
+/* ================== NAV PART ENDED =============== */
+/* ================== BANNER PART START =============== */
+#banner .main_banner .main_slider {
+	padding-top: 15px;
+}
+#banner .main_banner .main_slider .banner_slider .bnr_slid_item img {
+	height: 170px;
+}
+#banner .main_banner .banner_txt .banner_head h1 {
+	font-size: 20px;
+	width: 75%;
+	padding: 3px 0 0 14px;
+}
+#banner .main_banner .banner_txt .banner_desc p {
+	font-size: 8px;
+	padding: 15px 0 23px;
+	width: 60%;
+}
+#banner .main_banner .banner_txt .banner_desc a {
+	font-size: 8px;
+	padding: 6.5px 16.5px;
+	border-radius: 3px;
+}
+#banner .main_banner .main_slider .bnslid_lft i {
+	padding: 40% 60%;
+	border-radius: 4px;
+	font-size: 14px;
+}
+#banner .main_banner .main_slider .bnslid_rt {
+	right: 2%;
+}
+#banner .main_banner .main_slider .bnslid_rt i {
+    font-size: 14px;
+	padding: 40% 60%;
+	border-radius: 4px;
+}
+/* ================== BANNER PART ENDED =============== */
+/* ================== CATAGORIES PART START =============== */
+#catagory {
+	padding: 20px 0 40px;
+}
+#catagory .cata_head h2 {
+	font-size: 18px;
+}
+#catagory .catagories {
+	margin-top: 10px;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+#catagory .catagories .cata_item img {
+	width: 14px;
+}
+#catagory .catagories .cata_item p a {
+	font-size: 8px;
+	display: inherit;
+}
+/* ================== CATAGORIES PART ENDED =============== */
+/* ================== ARRIVAL PART START =============== */
+#arrival {
+	padding: 0 0 30px 0;
+}
+#arrival .arrival_head h2 {
+	font-size: 18px;
+}
+#arrival .arrival_head p {
+	font-size: 8px;
+	width: 62%;
+	line-height: 13px;
+	margin: 7px auto 0;
+}
+#arrival .main_arrival {
+	gap: 10px;
+	padding-top: 14px;
+}
+#arrival .main_arrival .arrival_item {
+	border-radius: 8px;
+}
+#arrival .main_arrival .arrival_item h3 a {
+	font-size: 12px;
+	padding: 10px 0 6px;
+}
+#arrival .main_arrival .arrival_item a {
+	font-size: 12px;
+	padding-bottom: 9px;
+}
+#arrival .main_arrival .arrival_item .ariv_bach {
+	top: 2px;
+	right: 2px;
+	font-size: 8px;
+	padding: 6px 3px;
+}
+/* ================== ARRIVAL PART ENDED =============== */
+/* ================== FEATURED PRODUCT PART START =============== */
+#featured_product .feature_head h2 {
+	font-size: 18px;
+}
+#featured_product .feature_head p {
+	font-size: 8px;
+	width: 62%;
+	margin: 9px auto 0;
+}
+#featured_product .main_feature_product {
+	margin-top: 15px;
+	border-radius: 10px;
+}
+#featured_product .main_feature_product h3 a {
+	font-size: 15px;
+	padding-top: 15px;
+}
+#featured_product .main_feature_product .featured_product_price {
+	padding: 4px 0 7px;
+}
+#featured_product .main_feature_product .featured_product_price span {
+	font-size: 14px;
+}
+#featured_product .main_feature_product .featured_product_price a {
+	font-size: 14px;
+}
+#featured_product .main_feature_product .countdown_timer {
+	padding: 10px 0;
+}
+#featured_product .main_feature_product .countdown_timer ul {
+	gap: 2%;
+	margin: 0;
+}
+#featured_product .main_feature_product .countdown_timer ul li {
+	padding: 3%;
+	border-radius: 8px;
+}
+#featured_product .main_feature_product .countdown_timer ul li p {
+	font-size: 15px;
+}
+#featured_product .main_feature_product .countdown_timer ul li span {
+	font-size: 10px;
+}
+#featured_product .main_limited {
+	margin-top: 15px;
+	gap: 15px;
+}
+#featured_product .main_limited .feature_limited .limited_txt h4 {
+	font-size: 12px;
+	padding: 5.5px 15.5px;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+#featured_product .main_limited .feature_limited .limited_txt h3 a {
+	font-size: 11px;
+	padding: 12px 0 8px;
+}
+#featured_product .main_limited .feature_limited .limited_txt .featured_product_price {
+	padding: 1px 0 5px;
+}
+#featured_product .main_limited .feature_limited .limited_txt .featured_product_price span {
+	font-size: 10px;
+}
+#featured_product .main_limited .feature_limited .limited_txt .featured_product_price a {
+	font-size: 10px;
+}
+#featured_product .main_limited .feature_limited .limited_txt .cdtmr2 {
+	padding-bottom: 5%;
+}
+#featured_product .main_limited .feature_limited .limited_txt .countdown_timer ul {
+	gap: 3%;
+}
+#featured_product .main_limited .feature_limited .limited_txt .countdown_timer ul li {
+	border-radius: 6px;
+}
+#featured_product .main_limited .feature_limited .limited_txt .countdown_timer ul li p {
+	font-size: 8px;
+}
+#featured_product .main_limited .feature_limited .limited_txt .countdown_timer ul li span {
+	font-size: 6px;
+}
+#featured_product .main_limited .feature_limited {
+	gap: 13px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+/* ================== FEATURED PRODUCT PART ENDED =============== */
+/* ================== COLLECTION PART START =============== */
+#collection {
+	padding: 25px 0;
+}
+#collection .collection_head h2 {
+	font-size: 20px;
+}
+#collection .collection_head p {
+	font-size: 8px;
+	line-height: 13px;
+	width: 72%;
+	margin: 7px auto 0;
+}
+#collection .collections {
+	margin-top: 15px;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+#collection .collections .collection_item {
+	width: 100%;
+}
+#collection .collections .collection_item .coll_txt {
+	padding: 9px;
+	border-radius: 7px;
+}
+#collection .collections .collection_item .coll_txt h3 {
+	font-size: 16px;
+}
+#collection .collections .collection_item .coll_txt p {
+	font-size: 7px;
+	width: 100%;
+	margin: 6px auto 0;
+}
+/* ================== COLLECTION PART ENDED =============== */
+/* ================== FLASH SALE PART START =============== */
+#flashsale {
+	padding-top: 20px;
+}
+#flashsale .flash_top .flash_head h2 {
+	font-size: 20px;
+}
+#flashsale .flash_top .flash_slid_btn {
+	margin-top: 0px;
+	gap: 43px;
+}
+#flashsale .flash_top .flash_slid_btn .flsh_left_slid i {
+	font-size: 15px;
+	padding: 5px;
+}
+#flashsale .flash_top .flash_slid_btn .flsh_right_slid i {
+    font-size: 15px;
+	padding: 5px;
+}
+#flashsale .flash_banner {
+	margin-top: 14px;
+    height: auto;
+}
+#flashsale .flash_slider {
+	margin-top: 15px;
+}
+#flashsale .flash_slider .slick-dots {
+    visibility: hidden;
+}
+#flashsale .flash_slider .slick-dots button {
+	height: 5px;
+	width: 5px;
+}
+#flashsale .flash_banner .flash_bnr_txt .countdown_timer ul {
+	margin-top: 7%;
+}
+#flashsale .flash_banner .flash_bnr_txt .flashtimedescrip {
+	margin-top: 100%;
+}
+#flashsale .flash_slider .flash_item {
+	height: auto;
+	padding-bottom: 10px;
+}
+#flashsale .flash_slider .flash_item .flash_item_txt h3 a {
+	font-size: 15px;
+	padding-top: 3%;
+}
+#flashsale .flash_slider .flash_item .flash_item_txt .flash_price del {
+	font-size: 16px;
+}
+#flashsale .flash_slider .flash_item .flash_item_txt .flash_price a {
+	font-size: 16px;
+}
+#flashsale .flash_slider .flash_item .flash_item_txt .flash_avilable span, #flashsale .flash_slider .flash_item .flash_item_txt .flash_avilable a {
+
+	font-size: 12px;
+}
+/* ================== FLASH SALE PART ENDED =============== */
+/* ================== TOP RATED PART START =============== */
+#toprate {
+	padding: 40px 0;
+}
+#toprate .rated_top .reated_head h2 {
+	font-size: 20px;
+}
+#toprate .rated_top .reated_slid_btn {
+	margin: 0;
+	gap: 10px;
+}
+#toprate .rated_slider .slick-dots {
+	visibility: hidden;
+}
+#toprate .rated_slider .rated_item h3 a {
+	font-weight: 400;
+	font-size: 16px;
+	padding-top: 10px;
+}
+#toprate .rated_slider .rated_item a {
+	font-size: 14px;
+}
+#toprate .rated_slider .rated_item .reating {
+	padding: 8px 0;
+}
+#toprate .rated_slider .rated_item .reating a {
+	font-size: 15px;
+	margin-top: 5px;
+}
+#toprate .rated_slider .rated_item .reating ul li a {
+	font-size: 13px;
+}
+#toprate .rated_slider .rated_item .toprate_btn {
+	font-size: 15px;
+	padding: 5.5px 20px;
+	border-radius: 4px;
+}
+/* ================== TOP RATED PART ENDED =============== */
+/* ================== BLOG PART START =============== */
+#blog .blog_head h2 {
+	font-size: 20px;
+}
+#blog .main_blogs {
+	gap: 3%;
+	margin-top: 10px;
+}
+#blog .main_blogs .blog_item {
+	border-radius: 12px;
+}
+#blog .main_blogs .blog_item h3 {
+	font-size: 7px;
+	padding: 4px 8px;
+}
+#blog .main_blogs .blog_item p {
+	font-size: 7px;
+	padding: 4px 8px;
+}
+/* ================== BLOG PART ENDED =============== */
+/* ================== NEWSLATTER PART START =============== */
+#newslatter {
+	padding: 50px 0 30px;
+}
+#newslatter .main_latter .latter_txt h2 {
+	font-size: 15px;
+}
+#newslatter .main_latter .latter_txt p {
+	font-size: 5px;
+	margin-top: 3px;
+}
+#newslatter .main_latter .latter_txt form {
+	margin-top: 4px;
+}
+#newslatter .main_latter .latter_txt form input {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	padding: 5px 0 5px 10px;
+}
+#newslatter .main_latter .latter_txt form input::placeholder{
+	font-size: 10px;
+}
+#newslatter .main_latter .latter_txt form button {
+	border-radius: 8px;
+	font-size: 8px;
+	padding: 11px 15.5px;
+}
+#newslatter .main_brands {
+	padding: 10px 36.5px 0;
+}
+#newslatter .main_brands .brand_item img {
+	width: 50%;
+}
+/* ================== NEWSLATTER PART ENDED =============== */
+/* ================== FOOTER PART START =============== */
+#footer {
+	padding: 10px 0 0px;
+}
+#footer .row {
+	flex-wrap: nowrap;
+}
+#footer .foot_logo h2 {
+	font-size: 20px;
+}
+#footer .foot_logo p {
+	padding: 6px 0 0px;
+	font-size: 8px;
+}
+#footer .foot_logo ul {
+	gap: 10px;
+}
+#footer .foot_logo ul li a img {
+	border-radius: 2px;
+	width: 40%;
+}
+#footer .foot_head{
+	margin: 0;
+}
+#footer .foot_head h2 {
+	font-size: 6px;
+}
+#footer .foot_head ul li a {
+	font-size: 4px;
+}
+#footer .foot_head ul {
+	margin-top: 4px;
+	gap: 0px;
+}
+#footer .foot_head ul li{
+	margin: -5px 0;
+}
+#footer .foot_head ul li span img{
+	width: 15%;
+}
+#footer .main_copyright {
+	margin-top: 2%;
+	padding: 6px 0;
+}
+#footer .main_copyright .copyR{
+	display: flex;
+	align-items: center;
+}
+#footer .main_copyright .copyR p {
+	font-size: 8px;
+}
+#footer .main_copyright .payment ul {
+	gap: 0px;
+}
+#footer .main_copyright .payment ul li a img{
+	width: 35%;
+}
+}
+/* ================== FOOTER PART ENDED =============== */
+/* ===================== EXTRA SMALL DEVICE RESPONSIVE ENDED ================ */
+/* ===================== SMALL DEVICE RESPONSIVE START ================ */
+/* ============= HEADER PART START ============ */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+.container, .container-sm {
+	max-width: 660px;
+}
+header .main_head .head_icon ul {
+	gap: 16px;
+}
+header .main_head .head_contact ul {
+	gap: 16px;
+}
+header .main_head .head_contact ul li a {
+	font-size: 13px;
+}
+header .main_head .head_contact ul li a span img{
+	width: 15%;
+}
+/* ============= HEADER PART ENDED ============ */
+/* ============= NAV PART START ============ */
+nav .main_nav {
+	padding: 20px 0;
+}
+nav .main_nav .nav_search {
+	gap: 20px;
+}
+nav .main_nav .nav_search form input {
+	padding-left: 5px;
+	height: 35px;
+	width: 150px;
+}
+nav .main_nav .nav_search form button {
+	padding: 0 5px;
+	height: 35px;
+}
+nav .main_nav .nav_search .dashboard img {
+	padding: 5px;
+}
+nav .main_nav .nav_signup .shopping {
+	gap: 10px;
+}
+nav .main_nav .nav_signup .shopping div a img{
+	width: 90%;
+}
+nav .main_nav .nav_signup .shopping .shop img{
+	width: 90%;
+}
+nav .main_nav .nav_signup .shopping .shop a {
+	font-size: 7px;
+	top: -6px;
+	right: -2px;
+}
+nav .main_nav .nav_signup .sign_login a {
+	font-size: 9px;
+	padding: 4.5px 6.5px;
+}
+nav .main_menu ul {
+	gap: 35px;
+}
+nav .main_menu ul li a {
+	font-size: 14px;
+}
+/* ============= NAV PART ENDED ============ */
+/* ============= BANNER PART START ============ */
+#banner .main_banner .main_slider .banner_slider .bnr_slid_item img {
+	height: 320px;
+}
+#banner .main_banner .banner_txt .banner_head{
+	margin-top: 5%;
+	width: 500px;
+}
+#banner .main_banner .banner_txt .banner_head h1 {
+	font-size: 35px;
+	padding: 14px 0 0 35px;
+}
+#banner .main_banner .banner_txt .banner_desc p {
+	font-size: 18px;
+	padding: 22px 0 31px;
+	width: 65%;
+}
+#banner .main_banner .banner_txt .banner_desc a {
+	font-size: 15px;
+	padding: 10.5px 21.5px;
+}
+#banner .main_banner .main_slider .bnslid_lft {
+	top: 55%;
+	left: 3%;
+}
+#banner .main_banner .main_slider .bnslid_rt {
+	top: 55%;
+	right: 3%;
+}
+/* ============= BANNER PART ENDED ============ */
+/* ============= CATAGORIES PART START ============ */
+#catagory {
+	padding: 60px 0 80px;
+}
+#catagory .catagories {
+	margin-top: 23px;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+#catagory .catagories .cata_item p a {
+	font-size: 17px;
+}
+/* ============= CATAGORIES PART ENDED ============ */
+/* ============= ARRIVAL PART START ============ */
+#arrival {
+	padding: 0px 0 65px 0;
+}
+#arrival .arrival_head h2 {
+	font-size: 36px;
+}
+#arrival .arrival_head p {
+	width: 86%;
+	line-height: 30px;
+	margin: 15px auto 0;
+}
+#arrival .main_arrival {
+	gap: 16px;
+	padding-top: 28px;
+}
+/* ============= ARRIVAL PART ENDED ============ */
+/* ============= FEATURED PART START ============ */
+#featured_product .feature_head h2 {
+	font-size: 36px;
+}
+#featured_product .feature_head p {
+	width: 81%;
+	margin: 11px auto 0;
+}
+#featured_product .main_feature_product {
+	margin-top: 25px;
+	border-radius: 13px;
+}
+#featured_product .main_feature_product h3 a {
+	font-size: 30px;
+	padding-top: 30px;
+}
+#featured_product .main_feature_product .featured_product_price span {
+	font-size: 20px;
+}
+#featured_product .main_feature_product .featured_product_price a {
+	font-size: 20px;
+}
+#featured_product .main_feature_product .countdown_timer ul li {
+	border-radius: 13px;
+}
+#featured_product .main_feature_product .countdown_timer ul li p {
+	font-size: 25px;
+}
+#featured_product .main_feature_product .countdown_timer ul li span {
+	font-size: 15px;
+}
+/* ============= FEATURED PART ENDED ============ */
+/* ============= COLLECTION PART START ============ */
+#collection {
+	padding: 65px 0;
+}
+#collection .collection_head h2 {
+	font-size: 36px;
+}
+#collection .collection_head p {
+	width: 82%;
+	margin: 11px auto 0;
+}
+#collection .collections {
+	margin-top: 40px;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+#collection .collections .collection_item {
+	width: 100%;
+}
+/* ============= COLLECTION PART ENDED ============ */
+/* ============= FLESH SALE PART START ============ */
+#flashsale{
+	position: relative;
+	padding-bottom: 50px;
+}
+#flashsale .flash_top .flash_slid_btn {
+position: absolute;
+bottom: 0;
+right: 50%;
+transform: translate(50%);
+}
+#flashsale .flash_slider .slick-dots {
+	gap: 5px;
+	top: 103%;
+	right: 42%;
+}
+#flashsale .flash_top .flash_head h2 {
+	font-size: 36px;
+}
+#flashsale .flash_top .flash_slid_btn {
+	margin: 0;
+	gap: 100px;
+}
+#flashsale .flash_banner {
+	margin-top: 20px;
+	height: auto;
+}
+#flashsale .flash_banner .flash_bnr_txt p {
+	margin-top: 18%;
+}
+#flashsale .flash_banner .flash_bnr_txt .flashtimedescrip {
+	margin-top: 95%;
+}
+
+/* ============= FLESH SALE PART ENDED ============ */
+/* ============= TOP RATE PART START ============ */
+#toprate {
+	padding: 50px 0;
+}
+#toprate .rated_top .reated_head h2 {
+	font-size: 36px;
+}
+#toprate .rated_slider .slick-dots {
+	right: 8%;
+}
+#toprate .rated_slider .rated_item a {
+	font-size: 16px;
+}
+#toprate .rated_slider .rated_item .reating a {
+	font-size: 19px;
+}
+#toprate .rated_slider .rated_item .toprate_btn {
+	font-size: 19px;
+	padding: 8.5px 20px;
+}
+/* ============= TOP RATE PART ENDED ============ */
+/* ============= BLOG PART START ============ */
+#blog .blog_head h2 {
+	font-size: 36px;
+}
+#blog .main_blogs {
+	gap: 3%;
+	margin-top: 20px;
+}
+#blog .main_blogs .blog_item h3 {
+	padding: 20px 12px;
+}
+/* ============= BLOG PART ENDED ============ */
+/* ============= NEWSLATTER PART START ============ */
+#newslatter {
+	padding: 80px 0 40px;
+}
+#newslatter .main_latter img {
+	height: 250px;
+}
+#newslatter .main_latter .latter_txt h2 {
+	font-size: 32px;
+}
+#newslatter .main_latter .latter_txt p {
+	margin-top: 10px;
+}
+#newslatter .main_latter .latter_txt form {
+	margin-top: 30px;
+}
+#newslatter .main_brands {
+	padding: 37px 66.5px 0;
+}
+#newslatter .main_brands .brand_item img {
+	width: 71%;
+}
+/* ============= NEWSLATTER PART ENDED ============ */
+/* ============= FOOTER PART START ============ */
+#footer {
+	padding: 50px 0 0px;
+}
+#footer .foot_logo p {
+	padding: 16px 0 32px;
+	font-size: 14px;
+	width: 100%;
+}
+#footer .foot_head h2 {
+	font-size: 16px;
+}
+#footer .foot_head ul li a {
+	font-size: 10px;
+}
+#footer .foot_head ul li span img{
+	width: 13%;
+}
+#footer .main_copyright {
+	margin-top: 25px;
+}
+}
+/* ============= FOOTER PART ENDED ============ */
+/* ===================== SMALL DEVICE RESPONSIVE ENDED ================ */
+/* ===================== MEDIOUM DEVICE RESPONSIVE START ================ */
+/* ====================== HEADER PART START ===================== */
+@media (min-width: 768px) and (max-width: 991.98px){
+	.container, .container-md{
+		max-width: 991px;
+	}
+/* ====================== HEADER PART ENDED ===================== */
+/* ====================== NAV PART START ===================== */
+nav .main_nav {
+	padding: 0px 0;
+}
+nav .main_nav .nav_search {
+	gap: 25px;
+}
+nav .main_nav .nav_search form input {
+	padding: 10px;
+	width: 200px;
+}
+nav .main_nav .nav_signup .shopping {
+	gap: 15px;
+}
+nav .main_nav .nav_signup .sign_login a {
+	padding: 10.5px 20.5px;
+}
+/* ====================== NAV PART ENDED ===================== */
+/* ====================== BANNER PART START ===================== */
+#banner .main_banner .main_slider {
+	padding-top: 25px;
+}
+#banner .main_banner .banner_txt .banner_head {
+	width: 720px;
+}
+#banner .main_banner .banner_txt .banner_head h1 {
+	font-size: 50px;
+}
+#banner .main_banner .banner_txt .banner_desc p {
+	font-size: 21px;
+}
+#banner .main_banner .main_slider .bnslid_rt {
+	position: absolute;
+	top: 50%;
+	right: 3%;
+}
+#banner .main_banner .main_slider .bnslid_lft {
+	left: 3%;
+}
+/* ====================== BANNER PART ENDED ===================== */
+/* ====================== CATAGORIES PART START ===================== */
+#catagory {
+	padding: 60px 0 100px;
+}
+#catagory .catagories {
+	gap: 25px;
+	flex-wrap: wrap;
+}
+#catagory .catagories .cata_item img {
+	width: 33px;
+}
+#catagory .catagories .cata_item p a {
+	font-size: 20px;
+}
+/* ====================== CATAGORIES PART ENDED ===================== */
+/* ====================== ARRIVAL PART START ===================== */
+#arrival {
+	padding: 0 0 80px 0;
+}
+#arrival .arrival_head h2 {
+	font-size: 50px;
+}
+#arrival .arrival_head p {
+	width: 64%;
+	margin: 10px auto 0;
+}
+#arrival .main_arrival {
+	gap: 25px;
+	padding-top: 35px;
+}
+#arrival .main_arrival .arrival_item a {
+	font-size: 20px;
+}
+/* ====================== ARRIVAL PART ENDED ===================== */
+/* ====================== FEATURED PART START ===================== */
+#featured_product .feature_head h2 {
+	font-size: 50px;
+}
+#featured_product .feature_head p {
+	width: 63%;
+	margin: 15px auto 0;
+}
+#featured_product .main_feature_product {
+	margin-top: 30px;
+}
+/* ====================== FEATURED PART ENDED ===================== */
+/* ====================== COLLECTION PART START ===================== */
+#collection {
+	padding: 90px 0;
+}
+#collection .collection_head h2 {
+	font-size: 50px;
+}
+#collection .collection_head p {
+	width: 63%;
+	margin: 15px auto 0;
+}
+#collection .collections {
+	margin-top: 50px;
+	gap: 20px;
+}
+#collection .collections .collection_item .coll_txt h3 {
+	font-size: 24px;
+}
+#collection .collections .collection_item .coll_txt p {
+	font-size: 15px;
+	width: 100%;
+	margin: 10px auto 0;
+}
+/* ====================== COLLECTION PART ENDED ===================== */
+/* ====================== FLASH SALE PART START ===================== */
+#flashsale{
+	padding-bottom: 50px;
+	position: relative;
+}
+#flashsale .flash_slid_btn{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%);
+}
+#flashsale .flash_top .flash_head h2 {
+	font-size: 50px;
+}
+#flashsale .flash_top .flash_slid_btn {
+	margin-top: 0;
+}
+#flashsale .flash_banner img {
+	width: 70%;
+	height: auto;
+}
+#flashsale .flash_banner .flash_bnr_txt {
+	width: 70%;
+}
+#flashsale .flash_banner .flash_bnr_txt p {
+	margin-top: 17%;
+}
+#flashsale .flash_slider {
+	margin-top: 66%;
+}
+#flashsale .flash_banner .flash_bnr_txt .flashtimedescrip {
+	margin-top: 95%;
+}
+#flashsale .flash_banner .flash_bnr_txt .countdown_timer ul {
+	margin: 28px 0 0;
+}
+#flashsale .flash_slider .slick-dots {
+	top: 103%;
+	right: 44%;
+}
+/* ====================== FLASH SALE PART ENDED ===================== */
+/* ====================== TOP RATE PART START ===================== */
+#toprate {
+	padding: 90px 0;
+}
+#toprate .rated_top .reated_head h2 {
+	font-size: 50px;
+}
+#toprate .rated_top .reated_slid_btn {
+	margin-top: 20px;
+	gap: 120px;
+}
+.rated_slider{
+	margin-top: 5%;
+}
+#toprate .rated_slider .slick-dots {
+visibility: hidden;
+}
+#toprate .rated_slider .rated_item a {
+	font-size: 20px;
+}
+#toprate .rated_slider .rated_item .reating a {
+	font-size: 20px;
+}
+#toprate .rated_slider .rated_item .toprate_btn {
+	font-size: 20px;
+	padding: 7.5px 17px;
+}
+#toprate .rated_slider .rated_item h3 a {
+	font-size: 17px;
+}
+#toprate .rated_slider .rated_item .reating {
+	padding: 10px 0;
+}
+/* ====================== TOP RATE PART ENDED ===================== */
+/* ====================== BLOG PART START ===================== */
+#blog .blog_head h2 {
+	font-size: 50px;
+}
+#blog .main_blogs {
+	gap: 20px;
+	margin-top: 30px;
+}
+/* ====================== BLOG PART ENDED ===================== */
+/* ====================== NEWSLATTER PART START ===================== */
+#newslatter {
+	padding: 80px 0 40px;
+}
+#newslatter .main_latter .latter_txt h2 {
+	font-size: 40px;
+}
+#newslatter .main_latter .latter_txt p {
+	margin-top: 9px;
+}
+#newslatter .main_latter .latter_txt form {
+	margin-top: 10px;
+}
+#newslatter .main_brands {
+	padding: 46px 85.5px 0;
+}
+#newslatter .main_brands .brand_item img {
+	width: 70%;
+}
+/* ====================== NEWSLATTER PART ENDED ===================== */
+/* ====================== FOOTER PART START ===================== */
+#footer .foot_head h2 {
+	font-size: 16px;
+}
+#footer .foot_head ul li a {
+	font-size: 12px;
+}
+#footer .foot_logo p {
+	padding: 16px 0 27px;
+}
+#footer .main_copyright {
+	margin-top: 30px;
+}
+}
+/* ====================== FOOTER PART ENDED ===================== */
+/* ===================== MEDIOUM DEVICE RESPONSIVE ENDED ================ */
+/* ===================== LARGE DEVICE RESPONSIVE START ================ */
+/* ====================== NAV PART START ===================== */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	nav .main_nav .nav_signup .sign_login a {
+		padding: 10.5px 24.5px;
+	}
+	/* ====================== NAV PART END ===================== */
+	/* ====================== CATAGORIES PART START ===================== */
+	#catagory {
+		padding: 80px 0 120px;
+	}
+	#catagory .catagories {
+		flex-wrap: wrap;
+	}
+	#catagory .catagories .cata_item p a {
+		font-size: 18px;
+	}
+	/* ====================== CATAGORIES PART ENDED ===================== */
+	/* ====================== ARRIVAL PART START ===================== */
+	#arrival {
+		padding: 0 0 120px 0;
+	}
+	#arrival .arrival_head p {
+		width: 51%;
+	}
+	#arrival .main_arrival {
+		padding-top: 40px;
+	}
+	/* ====================== ARRIVAL PART ENDED ===================== */
+	/* ====================== FEATURED PART START ===================== */
+	#featured_product .feature_head p {
+		width: 51%;
+	}
+	#featured_product .main_feature_product .countdown_timer ul li p {
+		font-size: 30px;
+	}
+	#featured_product .main_feature_product .countdown_timer ul li {
+		padding: 2%;
+		border-radius: 12px;
+	}
+	#featured_product .main_limited .feature_limited .limited_txt .countdown_timer ul li {
+		padding: 2%;
+		border-radius: 5px;
+	}
+	#featured_product .main_limited .feature_limited {
+		gap: 18px;
+	}
+	#featured_product .main_limited .feature_limited .limited_txt h3 a {
+		padding: 15px 0 8px;
+	}
+	#featured_product .main_limited .feature_limited .limited_txt .featured_product_price {
+		padding: 2px 0 5px;
+	}
+	/* ====================== FEATURED PART ENDED ===================== */
+	/* ====================== COLLECTION PART START ===================== */
+	#collection {
+		padding: 110px 0;
+	}
+	#collection .collection_head p {
+		width: 51%;
+	}
+	#collection .collections {
+		margin-top: 50px;
+	}
+	#collection .collections .collection_item .coll_txt h3 {
+		font-size: 30px;
+	}
+	#flashsale .flash_banner .flash_bnr_txt .flashtimedescrip {
+		margin-top: 105%;
+	}
+	#flashsale .flash_banner .flash_bnr_txt .countdown_timer ul li {
+		padding: 2%;
+		border-radius: 7px;
+	}
+	/* ====================== COLLECTION PART ENDED ===================== */
+	/* ====================== FLASH SALE PART START ===================== */
+	#flashsale .flash_slider .flash_item .flash_item_txt .flash_avilable span, #flashsale .flash_slider .flash_item .flash_item_txt .flash_avilable a {
+		font-size: 12px;
+	}
+	#flashsale .flash_slider .flash_item .flash_item_txt .flash_avilable {
+		padding: 10px 6px;
+	}
+	#flashsale .flash_slider .flash_item {
+		height: 380px;
+	}
+	/* ====================== FLASH SALE PART ENDED ===================== */
+	/* ====================== RATED  PART START ===================== */
+	#toprate {
+		padding: 110px 0;
+	}
+	#toprate .rated_slider .rated_item h3 a {
+		font-size: 15px;
+	}
+	#toprate .rated_slider .rated_item a {
+		font-size: 17px;
+	}
+	#toprate .rated_slider .rated_item .toprate_btn {
+		font-size: 17px;
+		padding: 5.5px 20px;
+	}
+	#toprate .rated_slider .rated_item {
+		border-radius: 17px;
+	}
+	/* ====================== RATED  PART ENDED ===================== */
+	/* ====================== BLOG  PART START ===================== */
+	#blog .main_blogs {
+		margin-top: 50px;
+	}
+	/* ====================== BLOG  PART ENDED ===================== */
+	/* ====================== NEWSLATTER  PART START ===================== */
+	#newslatter {
+		padding: 110px 0 80px;
+	}
+	#newslatter .main_latter .latter_txt form {
+		margin-top: 30px;
+	}
+	#newslatter .main_brands {
+		padding: 61px 85.5px 0;
+	}
+	#newslatter .main_brands .brand_item img {
+		width: 80%;
+	}
+	/* ====================== NEWSLATTER  PART ENDED ===================== */
+	/* ====================== FOOTER  PART START ===================== */
+	#footer .foot_head ul li a {
+		font-size: 16px;
+	}
+	#footer .main_copyright {
+		margin-top: 90px;
+	}
+}
+	/* ====================== FOOTER  PART ENDED ===================== */
+/* ===================== LARGE DEVICE RESPONSIVE ENDED ================ */
+/* ============================ HOMEPAGE RESPONSIVE ENDED ====================== */
+
+
+/* ============================ ABOUT PAGE RESPONSIVE START ====================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE START ================== */
+/* ================= NAV PART START ================ */
+@media (max-width: 575.98px){
+	nav .about_menu ul {
+		gap: 10px;
+	}
+	nav .about_menu ul li a {
+		font-size: 6px;
+	}
+	nav .main_nav .nav_search form .about_inp{
+		padding: 10px;
+		border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+	}
+	nav .main_nav .nav_search form .about_inp::placeholder{
+		font-size: 5px;
+	}
+	nav .page_location ol li a {
+		font-size: 8px;
+	}
+/* ================= NAV PART ENDED ================ */
+/* ================= TRONIX PART START ================ */
+#tronix {
+	padding: 10px 0 50px;
+}
+#tronix .tron_head h2 {
+	font-size: 20px;
+}
+#tronix .tron_head p {
+	font-size: 6px;
+	padding: 10px 0 20px;
+}
+/* ================= TRONIX PART ENDED ================ */
+/* ================= CHOOSE PART START ================ */
+#choose .choose_head h2 {
+	font-size: 20px;
+}
+#choose .choose_parpuse {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+#choose .choose_parpuse .parpuse_item {
+	width: 46%;
+}
+#choose .choose_parpuse .parpuse_item img{
+	width: 35%;
+}
+#choose .choose_parpuse .parpuse_item h3 {
+	font-size: 12px;
+	padding: 6px 0 8px;
+}
+#choose .choose_parpuse .parpuse_item p {
+	font-size: 10px;
+}
+/* ================= CHOOSE PART ENDED ================ */
+/* ================= TEAM PART START ================ */
+#team {
+	padding: 60px 0;
+}
+#team .team_head h2 {
+	font-size: 20px;
+}
+#team .team_head p {
+	font-size: 8px;
+	width: 73%;
+	padding: 10px 0 20px;
+}
+#team .main_team {
+	gap: 15px;
+	flex-wrap: wrap;
+}
+#team .main_team .team_item {
+	width: 100%;
+}
+#team .main_team .team_item .team_name {
+	padding: 16px;
+	border-radius: 5px;
+}
+#team .main_team .team_item .team_name h3 {
+	font-size: 17px;
+}
+#team .main_team .team_item .team_name p {
+	font-size: 12px;
+}
+/* ================= TEAM PART ENDED ================ */
+/* ================= NEWSLATTER PART START ================ */
+#Abnewslatter {
+	padding: 40px 0;
+}
+#Abnewslatter .abMain_newslatter {
+	padding: 0 10px;
+	flex-wrap: wrap;
+}
+#Abnewslatter .abMain_newslatter .ab_news_logo img{
+	width: 40px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head {
+	margin-left: 15px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head h2 {
+	font-size: 15px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head p {
+	font-size: 8px;
+	margin-top: 6px;
+}
+#Abnewslatter .abMain_newslatter .ful{
+	width: 100%;
+}
+#Abnewslatter .abMain_newslatter form {
+	margin: 20px 0 0;
+}
+#Abnewslatter .abMain_newslatter form input {
+	padding: 10px 0 10px 15px;
+}
+#Abnewslatter .abMain_newslatter form button {
+	font-size: 13px;
+	padding: 7.5px 16.5px;
+}
+/* ================= NEWSLATTER PART ENDED ================ */
+/* ================= FOOTER PART START ================ */
+.abflow{
+	gap: 10px !important;
+}
+.abflow li a img{
+	width: 10px;
+}
+#footer .foot_head .ab_ftul li span img {
+	width: 6%;
+}
+#footer .ab_cpr {
+	border-top: 1px solid #A7A7A7;
+}
+}
+/* ================= FOOTER PART ENDED ================ */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ==================== SMALL DEVICE RESPONSIVE START ================== */
+/* ================= HEADER PART START ================ */
+@media (min-width: 576px) and (max-width: 767.98px){
+	header .main_head .head_icon ul li a {
+		font-size: 20px;
+	}
+	header .main_head .head_contact ul li a {
+		font-size: 10px;
+	}
+	header .main_head .head_contact ul li a span img {
+		width: 13%;
+	}
+/* ================= HEADER PART ENDED ================ */
+/* ================= NAV PART START ================ */
+nav .main_nav {
+	padding: 10px 0;
+}
+nav .main_nav .nav_logo img{
+	width: 90%;
+}
+nav .about_menu ul {
+	gap: 10px;
+}
+nav .about_menu ul li a {
+	font-size: 12px;
+}
+nav .main_nav .nav_search form .about_inp {
+	padding: 10px;
+	width: 100px;
+}
+nav .main_nav .nav_search form .about_inp::placeholder{
+	font-size: 12px;
+}
+nav .page_location ol li a {
+	font-size: 11px;
+}
+/* ================= NAV PART ENDED ================ */
+/* ================= TRONIX PART START ================ */
+#tronix {
+	padding: 30px 0 70px;
+}
+#tronix .tron_head h2 {
+	font-size: 30px;
+}
+#tronix .tron_head p {
+	font-size: 11px;
+	width: 95%;
+	padding: 20px 0 30px;
+}
+/* ================= TRONIX PART ENDED ================ */
+/* ================= CHOOSE PART START ================ */
+#choose .choose_head h2 {
+	font-size: 30px;
+}
+
+#choose .choose_parpuse {
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+	padding-top: 30px;
+}
+#choose .choose_parpuse .parpuse_item {
+	width: 46%;
+}
+#choose .choose_parpuse .parpuse_item img{
+	width: 35%;
+}
+#choose .choose_parpuse .parpuse_item h3 {
+	font-size: 16px;
+	padding: 6px 0 8px;
+}
+#choose .choose_parpuse .parpuse_item p {
+	font-size: 14px;
+}
+/* ================= CHOOSE PART ENDED ================ */
+/* ================= TEAM PART START ================ */
+#team {
+	padding: 80px 0;
+}
+#team .team_head h2 {
+	font-size: 30px;
+}
+#team .team_head p {
+	font-size: 15px;
+	width: 70%;
+	padding: 15px 0 30px;
+}
+#team .main_team {
+	gap: 20px;
+	flex-wrap: wrap;
+}
+#team .main_team .team_item {
+	width: 48%;
+}
+#team .main_team .team_item .team_name h3 {
+	font-size: 20px;
+}
+#team .main_team .team_item .team_name p {
+	font-size: 15px;
+}
+/* ================= TEAM PART ENDED ================ */
+/* ================= NEWSLATTER PART START ================ */
+#Abnewslatter {
+	padding: 40px 0;
+}
+#Abnewslatter .abMain_newslatter {
+	padding: 0 10px;
+	flex-wrap: wrap;
+}
+#Abnewslatter .abMain_newslatter .ab_news_logo img {
+	width: 60px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head {
+	margin-left: 15px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head h2 {
+	font-size: 30px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head p {
+	font-size: 14px;
+	margin-top: 6px;
+}
+#Abnewslatter .abMain_newslatter .ful{
+	width: 100%;
+}
+#Abnewslatter .abMain_newslatter form {
+	margin: 20px 0 0;
+}
+#Abnewslatter .abMain_newslatter form input {
+	padding: 15px 0 15px 20px;
+}
+#Abnewslatter .abMain_newslatter form button {
+	font-size: 13px;
+	padding: 10.5px 21.5px;
+}
+/* ================= NEWSLATTER PART ENDED ================ */
+/* ================= FOOTER PART ENDED ================ */
+.abflow{
+	gap: 10px !important;
+}
+.abflow li a img{
+	width: 20px;
+}
+#footer .foot_head h2 {
+	font-size: 12px;
+}
+#footer .foot_head .ab_ftul li span img {
+	width: 6%;
+}
+#footer .ab_cpr {
+	border-top: 1px solid #A7A7A7;
+}
+}
+/* ================= FOOTER PART ENDED ================ */
+/* ==================== SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE START ================== */
+/* ================= HEADER PART START ================ */
+@media (min-width: 768px) and (max-width: 991.98px){
+	header .main_head .head_icon ul li a {
+		font-size: 20px;
+	}
+	header .main_head .head_contact ul li a {
+		font-size: 15px;
+	}
+	header .main_head .head_contact ul li a span img{
+		width: 13% !important;
+	}
+/* ================= HEADER PART ENDED ================ */
+/* ================= NAV PART START ================ */
+nav .about_menu ul {
+	gap: 20px;
+}
+nav .main_nav .nav_search form .about_inp {
+	padding: 10px;
+	width: 150px;
+}
+.about_menu {
+	margin-top: 0 !important;
+}
+nav .about_menu ul li a {
+	font-size: 14px;
+}
+.page_location{
+	margin-top: 10px;
+}
+nav .page_location ol li a {
+	font-size: 15px;
+}
+/* ================= NAV PART ENDED ================ */
+/* ================= TRONIX PART START ================ */
+#tronix {
+	padding: 35px 0 70px;
+}
+#tronix .tron_head h2 {
+	font-size: 40px;
+}
+#tronix .tron_head p {
+	font-size: 16px;
+	padding: 22px 0 32px;
+}
+/* ================= TRONIX PART ENDED ================ */
+/* ================= CHOOSE PART START ================ */
+#choose .choose_head h2 {
+	font-size: 40px;
+}
+#choose .choose_parpuse .parpuse_item h3 {
+	font-size: 14px;
+	padding: 14px 0 8px;
+}
+#choose .choose_parpuse .parpuse_item p {
+	font-size: 11px;
+}
+/* ================= CHOOSE PART ENDED ================ */
+/* ================= TEAM PART START ================ */
+#team {
+	padding: 80px 0;
+}
+#team .team_head h2 {
+	font-size: 40px;
+}
+#team .team_head p {
+	font-size: 16px;
+	padding: 20px 0 40px;
+}
+#team .main_team .team_item .team_name {
+	padding: 15px;
+	border-radius: 10px;
+}
+#team .main_team .team_item .team_name h3 {
+	font-size: 17px;
+}
+#team .main_team .team_item .team_name p {
+	font-size: 15px;
+}
+/* ================= TEAM PART ENDED ================ */
+/* ================= NEWSLATTER PART START ================ */
+#Abnewslatter {
+	padding: 40px 0;
+}
+#Abnewslatter .abMain_newslatter {
+	padding: 0 20px;
+	justify-content: space-between;
+}
+#Abnewslatter .abMain_newslatter .ab_news_logo img{
+	width: 80%;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head {
+	margin-left: 0px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head h2 {
+	font-size: 27px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head p {
+	font-size: 11px;
+	margin-top: 5px;
+}
+#Abnewslatter .abMain_newslatter form {
+	margin-left: 0px;
+}
+#Abnewslatter .abMain_newslatter form input {
+	padding: 15px 0 15px 20px;
+}
+#Abnewslatter .abMain_newslatter form button {
+	padding: 7.5px;
+	border: none;
+}
+/* ================= NEWSLATTER PART ENDED ================ */
+/* ================= FOOTER PART START ================ */
+.abflow li a img{
+	width: 30px;
+}
+}
+/* ================= FOOTER PART ENDED ================ */
+/* ==================== MEDIOUM DEVICE RESPONSIVE ENDED ================== */
+/* ==================== LARGE DEVICE RESPONSIVE START ================== */
+/* ================= NAV PART START ================ */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	nav .about_menu ul {
+		gap: 20px;
+	}
+	nav .main_nav .nav_search form input {
+		width: 240px;
+	}
+/* ================= NAV PART ENDED ================ */
+/* ================= CHOOSE PART START ================ */
+#choose .choose_parpuse {
+	padding-top: 40px;
+}
+#choose .choose_parpuse .parpuse_item h3 {
+	font-size: 18px;
+	padding: 32px 0 8px;
+}
+/* ================= CHOOSE PART ENDED ================ */
+/* ================= TEAM PART START ================ */
+#team {
+	padding: 100px 0;
+}
+#team .team_head p {
+	padding: 22px 0 44px;
+}
+#team .main_team .team_item .team_name h3 {
+	font-size: 18px;
+}
+#team .main_team .team_item .team_name p {
+	font-size: 14px;
+}
+/* ================= TEAM PART ENDED ================ */
+/* ================= NEWSLATTER PART START ================ */
+#Abnewslatter {
+	padding: 60px 0;
+}
+#Abnewslatter .abMain_newslatter {
+	padding: 0px 20px;
+justify-content: space-between;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head {
+	margin-left: 0px;
+}
+#Abnewslatter .abMain_newslatter .ab_news_head h2 {
+	font-size: 30px;
+}
+#Abnewslatter .abMain_newslatter form {
+	margin-left: 0px;
+}
+#Abnewslatter .abMain_newslatter form input {
+	padding: 20px 0px 20px 20px;
+}
+#Abnewslatter .abMain_newslatter form button {
+	padding: 12.5px 11.5px;
+}
+/* ================= NEWSLATTER PART ENDED ================ */
+/* ================= FOOTER PART START ================ */
+#footer .foot_head h2 {
+	font-size: 21px;
+}
+}
+/* ================= FOOTER PART ENDED ================ */
+/* ==================== LARGE DEVICE RESPONSIVE ENDED ================== */
+/* ============================ ABOUT PAGE RESPONSIVE ENDED ====================== */
+
+
+/* ============================ LATEST BLOG PAGE RESPONSIVE START ====================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== BLOG PART START ================== */
+@media (max-width: 575.98px){
+	#ltsBlog {
+		padding: 25px 0 50px;
+	}
+	#ltsBlog .Ltsblog_head {
+		padding-bottom: 35px;
+	}
+	#ltsBlog .Ltsblog_head h2 {
+		font-size: 20px;
+	}
+	#ltsBlog .Ltsblog_head p {
+		font-size: 13px;
+		margin: 9px auto 0;
+		width: 73%;
+	}
+	#ltsBlog .main_ltsblog {
+		gap: 0px;
+		flex-wrap: wrap;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_catagori ul li a {
+		font-size: 13px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_Tags ul li a {
+		font-size: 13px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder {
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts {
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg {
+		width: 100%;
+	}
+	.lts_sldprev , .lts_sldnext{
+		visibility: hidden;
+	}
+	#ltsBlog .main_ltsblog .slick-dots {
+        visibility: hidden;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder form input {
+		width: 90%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile {
+		width: 100%;
+		gap: 20px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_txt h4 {
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt {
+		padding: 20px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt p {
+		line-height: 17px;
+		padding: 10px 0;
+	}
+}
+/* ==================== BLOG PART ENDED ================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ==================== SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== BLOG PART START ================== */
+@media (min-width: 576px) and (max-width: 767.98px){
+	#ltsBlog {
+		padding: 25px 0 50px;
+	}
+	#ltsBlog .Ltsblog_head {
+		padding-bottom: 35px;
+	}
+	#ltsBlog .Ltsblog_head h2 {
+		font-size: 30px;
+	}
+	#ltsBlog .Ltsblog_head p {
+		font-size: 16px;
+		margin: 9px auto 0;
+		width: 73%;
+	}
+	#ltsBlog .main_ltsblog {
+		gap: 0px;
+		flex-wrap: wrap;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder {
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts {
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg {
+		width: 100%;
+	}
+	.lts_sldprev , .lts_sldnext{
+		visibility: hidden;
+	}
+	#ltsBlog .main_ltsblog .slick-dots {
+        visibility: hidden;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder form input {
+		width: 90%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile {
+		width: 100%;
+		gap: 20px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_txt h4 {
+		width: 100%;
+		font-size: 17px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt {
+		padding: 20px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt h4 {
+		font-size: 18px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt p {
+		line-height: 22px;
+		font-size: 17px;
+		padding: 10px 0;
+	}
+}
+/* ==================== BLOG PART ENDED ================== */
+/* ==================== SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE START ================== */
+/* ==================== BLOG PART START ================== */
+@media (min-width: 768px) and (max-width: 991.98px){
+	#ltsBlog {
+		padding: 48px 0 90px;
+	}
+	#ltsBlog .main_ltsblog {
+		gap: 15px;
+	}
+	#ltsBlog .Ltsblog_head h2 {
+		font-size: 40px;
+	}
+	#ltsBlog .Ltsblog_head p {
+		margin: 10px auto 0;
+		width: 62%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder form input {
+		width: 88%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_catagori ul li a {
+		font-size: 12px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_Tags ul li a {
+		font-size: 12px;
+		padding: 7px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile {
+		margin-top: 15px;
+		gap: 15px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_pic{
+		width: 10%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_pic img{
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_txt h4 {
+		font-size: 12px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_txt {
+		gap: 0px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_txt p {
+		font-size: 9px;
+		width: fit-content;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg {
+		width: 30.333%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts {
+		padding: 0 20px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt {
+		padding: 10px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt h4 {
+		font-size: 11px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt p {
+        line-height: 20px;
+	}
+	#ltsBlog .main_ltsblog .slick-dots {
+		bottom: 3%;
+		right: 35%;
+	}
+	#ltsBlog .main_ltsblog .lts_sldnext {
+		bottom: 6%;
+		right: 19%;
+	}
+	#ltsBlog .main_ltsblog .lts_sldprev {
+		bottom: 6%;
+		left: 53%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts {
+		width: 67%;
+	}
+}
+/* ==================== BLOG PART ENDED ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE ENDED ================== */
+/* ==================== LARGE DEVICE RESPONSIVE START ================== */
+/* ==================== BLOG PART START ================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#ltsBlog {
+		padding: 48px 0 90px;
+	}
+	#ltsBlog .main_ltsblog {
+		gap: 15px;
+	}
+	#ltsBlog .Ltsblog_head h2 {
+		font-size: 48px;
+	}
+	#ltsBlog .Ltsblog_head p {
+		margin: 10px auto 0;
+		width: 52%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder form input {
+		width: 91%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_catagori ul li a {
+		font-size: 16px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_Tags ul li a {
+		font-size: 16px;
+		padding: 7px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile {
+		margin-top: 15px;
+		gap: 15px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_pic{
+		width: 15%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_pic img{
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_txt h4 {
+		font-size: 15px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_txt {
+		gap: 0px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile .resntpost_profile_txt p {
+		font-size: 12px;
+		width: fit-content;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg {
+		width: 30.333%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts {
+		padding: 0 20px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt {
+		padding: 10px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt h4 {
+		font-size: 15px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts .ltsblog_item .ltsblg .lts_blgtxt p {
+		line-height: 20px;
+		font-size: 14px;
+	}
+	#ltsBlog .main_ltsblog .slick-dots {
+		bottom: 3%;
+		right: 35%;
+	}
+	#ltsBlog .main_ltsblog .lts_sldnext {
+		bottom: 6%;
+		right: 19%;
+	}
+	#ltsBlog .main_ltsblog .lts_sldprev {
+		bottom: 6%;
+		left: 53%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posts {
+		width: 67%;
+	}
+}
+/* ==================== BLOG PART ENDED ================== */
+/* ==================== LARGE DEVICE RESPONSIVE ENDED ================== */
+/* ============================ LATEST BLOG PAGE RESPONSIVE ENDED ====================== */
+/* ============================ CONTACT PAGE RESPONSIVE START ====================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== CONTACT PART START ================== */
+@media (max-width: 575.98px) { 
+	#contact {
+		padding: 20px 0 30px;
+	}
+	#contact .cont_head h2 {
+		font-size: 20px;
+	}
+	#contact .cont_head p {
+		font-size: 5px;
+		width: 75%;
+		padding: 8px 0 12px;
+	}
+	#contact .cont_box {
+		gap: 0px;
+		flex-wrap: wrap;
+	}
+	#contact .cont_box form {
+		width: 100%;
+		padding: 15px;
+		gap: 17px;
+	}
+	#contact .cont_box form span label {
+		font-size: 13px;
+	}
+	#contact .cont_box form span input , #contact .cont_box form span textarea{
+		border: 1px solid #A7A7A7;
+	}
+	#contact .cont_box form .ATC {
+		margin-top: 20px;
+	}
+	#contact .cont_box form .ATC .ATCL {
+		font-size: 8px;
+	}
+	#contact .cont_box form .ATC .ATCL input {
+		margin-right: 5px;
+	}
+	#contact .cont_box form .ATC button {
+		font-size: 8px;
+		padding: 6.5px 23.5px;
+	}
+	#contact .cont_box .cont_dtls {
+		width: 100%;
+		padding: 20px;
+		margin-top: 20px;
+	}
+	#contact .cont_box .cont_dtls h3 {
+		font-size: 20px;
+	}
+	#contact .cont_box .cont_dtls ul li span, #contact .cont_box .cont_dtls ul li a {
+		font-size: 11px;
+	}
+	#contact .cont_box .cont_dtls ul li i {
+		font-size: 14px;
+	}
+	#contact .cont_box .cont_dtls ul li img{
+		width: 20px;
+	}
+	#contact .cont_box .cont_dtls ul {
+		gap:15px;
+		margin-top: 20px;
+	}
+	#contact .cont_box .cont_dtls h4 {
+		font-size: 18px;
+		padding: 19px 0 6px;
+	}
+	#contact .cont_box .cont_dtls ol li a {
+		font-size: 20px;
+	}
+}
+/* ==================== CONTACT PART ENDED ================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ====================  SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== CONTACT PART START ================== */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#contact {
+		padding: 35px 0 60px;
+	}
+	#contact .cont_head h2 {
+		font-size: 30px;
+	}
+	#contact .cont_head p {
+		font-size: 12px;
+		width: 80%;
+		padding: 15px 0 30px;
+	}
+	#contact .cont_box {
+		flex-wrap: wrap;
+		gap: 0px;
+	}
+	#contact .cont_box form {
+		width: 100%;
+		padding: 30px;
+		border: 1.5px solid #A7A7A7;
+		gap: 20px;
+	}
+	#contact .cont_box form span label {
+		font-size: 15px;
+	}
+	#contact .cont_box form span input {
+		border: 1.5px solid #A7A7A7;
+	}
+	#contact .cont_box form span textarea {
+		border: 1.5px solid #A7A7A7;
+	}
+	#contact .cont_box form .ATC button {
+		font-size: 14px;
+		padding: 7.5px 22.5px;
+		border: 1.5px solid #F46B5B;
+	}
+	#contact .cont_box form .ATC .ATCL {
+		font-size: 15px;
+	}
+	#contact .cont_box .cont_dtls {
+		width: 100%;
+		padding: 30px;
+		margin-top: 25px;
+	}
+	#contact .cont_box .cont_dtls h3 {
+		font-size: 30px;
+	}
+ }
+
+/* ==================== CONTACT PART ENDED ================== */
+/* ====================  SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ====================  MEDIOUM DEVICE RESPONSIVE START ================== */
+/* ==================== VAN PART START ================== */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   nav{
+	   padding-top: 20px;
+	}
+	
+	/* ==================== VAN PART ENDED ================== */
+   /* ==================== CONTACT PART START ================== */
+   #contact {
+	   padding: 80px 0 100px;
+    }
+	#contact .cont_head h2 {
+		font-size: 40px;
+    }
+	#contact .cont_head p {
+		font-size: 15px;
+		width: 80%;
+		padding: 15px 0 35px;
+	}
+	#contact .cont_box form {
+		padding: 25px;
+		border: 2px solid #A7A7A7;
+		gap: 25px;
+	}
+	#contact .cont_box form .ATC button {
+		font-size: 13px;
+		padding: 12.5px 21.5px;
+	}
+	#contact .cont_box form .ATC .ATCL {
+		font-size: 16px;
+	}
+	#contact .cont_box form .ATC {
+		margin-top: 27px;
+	}
+	#contact .cont_box .cont_dtls {
+		padding: 30px;
+	}
+	#contact .cont_box .cont_dtls h3 {
+		font-size: 40px;
+	}
+	#contact .cont_box .cont_dtls ul li span, #contact .cont_box .cont_dtls ul li a {
+		font-size: 13px;
+	}
+	#contact .cont_box .cont_dtls ul li i {
+		font-size: 15px;
+	}
+	#contact .cont_box .cont_dtls h4 {
+		padding: 20px 0 6px;
+	}
+}
+/* ==================== CONTACT PART ENDED ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE ENDED ================== */
+/* ==================== LARGE DEVICE RESPONSIVE START ================== */
+/* ==================== CONTACT PART START ================== */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#contact {
+		padding: 65px 0 90px;
+	}
+ }
+/* ==================== CONTACT PART ENDED ================== */
+/* ==================== LARGE DEVICE RESPONSIVE ENDED ================== */
+/* ============================ CONTACT PAGE RESPONSIVE ENDED ====================== */
+/* ============================ LOGIN PAGE RESPONSIVE START ====================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== LOGIN PART START ================== */
+@media (max-width: 575.98px) { 
+	#Login {
+		padding: 30px 0;
+	}
+	#Login .login_account {
+		padding: 25px;
+	}
+	#Login .login_account h2 ,	#Login .create_account h2 {
+		font-size: 25px;
+	}
+	#Login .login_account p , #Login .create_account p {
+		font-size: 13px;
+		padding: 12px 0 25px;
+	}
+	#Login .login_account form .form-group label ,#Login .login_account form .remember_forgot label , 	#Login .create_account #form .form-control label{
+		font-size: 13px;
+	}
+	#Login .login_account form .form-group input ,#Login .create_account #form .form-control input {
+		padding: 10px 10px 10px 30px;
+	}
+	#Login .login_account form .form-group input::placeholder , 	#Login .create_account #form .form-control input::placeholder{
+		font-size: 13px;
+	}
+	#Login .login_account form button {
+		font-size: 13px;
+		margin: 10px 0 15px;
+	}
+	#Login .login_account form .remember_forgot a {
+		font-size: 13px;
+	}
+	#Login .login_account .logwith {
+		margin-top: 15px;
+	}
+	#Login .login_account .logwith h3 {
+		font-size: 15px;
+	}
+	#Login .login_account .logwith ul li a {
+		font-size: 15px;
+	}
+	#Login .create_account {
+		margin-top: 15px;
+		padding: 25px;
+	}
+	#Login .create_account #form button {
+		font-size: 13px;
+		margin-top: 0.2em;
+	}
+ }
+/* ==================== LOGIN PART ENDED ================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ==================== SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== LOGIN PART START ================== */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#Login {
+		padding: 45px 0;
+	}
+	#Login .login_account ,#Login  .create_account{
+		padding: 35px;
+	}
+	#Login .login_account h2 , #Login .create_account h2 {
+		font-size: 34px;
+	}
+	#Login .login_account p , 	#Login .create_account p {
+		font-size: 15px;
+		padding: 15px 0 25px;
+	}
+	#Login .login_account form button {
+		font-size: 15px;
+		margin: 10px 0 6px;
+	}
+	#Login .login_account form .form-group input::placeholder , #Login .create_account #form .form-control input::placeholder{
+		font-size: 15px;
+	}
+	.create_account{
+		margin-top: 17px;
+	}
+ }
+/* ==================== LOGIN PART ENDED ================== */
+/* ==================== SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE START ================== */
+/* ==================== LOGIN PART START ================== */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#Login {
+		padding: 60px 0;
+	}
+	#Login .login_account , #Login .create_account {
+		padding: 40px;
+	}
+	#Login .login_account h2, 	#Login .create_account h2 {
+		font-size: 40px;
+	}
+	#Login .login_account p , 	#Login .create_account p{
+		font-size: 17px;
+		padding: 16px 0 32px;
+	}
+	#Login .login_account form button {
+		margin: 20px 0px 6px;
+	}
+	.create_account{
+		margin-top: 20px;
+	}
+}
+/* ==================== LOGIN PART ENDED ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE ENDED ================== */
+/* ==================== LARGE DEVICE RESPONSIVE START ================== */
+/* ==================== LOGIN PART START ================== */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    #Login .login_account ,  #Login .create_account {
+		padding: 40px;
+	}
+	#Login .create_account h2 , #Login .login_account h2 {
+		font-size: 40px;
+	}
+	#Login .login_account p , #Login .create_account p {
+		padding: 24px 0 34px;
+	}
+	#Login .login_account form button {
+		margin: 0;
+	}
+	#Login .login_account .logwith {
+		margin-top: 18px;
+	}
+ }
+/* ==================== LOGIN PART ENDED ================== */
+/* ==================== LARGE DEVICE RESPONSIVE ENDED ================== */
+/* ============================ LOGIN PAGE RESPONSIVE ENDED ====================== */
+/* ============================ ACCOUNT PAGE RESPONSIVE START ====================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== ACCOINT PART START ================== */
+@media (max-width: 575.98px) { 
+	#profile {
+		padding: 30px 0;
+	}
+	#profile .main_profile {
+		padding: 15px;
+		border: 1px solid #A7A7A7;
+		display: block;
+	}
+	#profile .main_profile .sort_profile_menu {
+		width: 100%;
+	}
+	#profile .main_profile .sort_profile_menu h2 {
+		font-size: 20px;
+		padding-bottom: 15px;
+	}
+	#profile .main_profile .sort_profile_menu ul {
+		display: flex;
+		column-gap: 20px;
+		row-gap: 5px;
+		padding-bottom: 15px;
+	}
+	#profile .main_profile .sort_profile_menu ul::after {
+		width: 100%;
+		height: 1px;
+		top: 100%;
+		left: 0;
+	}
+	#profile .main_profile .sort_profile_menu ul li button {
+		padding: 0;
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+		font-size: 13px;
+		color: #000;
+	}
+	#profile .main_profile .tab-content .account_details h2{
+        font-size: 20px ;
+		padding: 15px 0;
+	}
+	#profile .main_profile .tab-content {
+		width: 100%;
+		margin-left: 0px;
+	}
+	#profile .main_profile .tab-content .account_details p {
+		font-size: 13px;
+		padding: 0px 0 20px;
+	}
+	#profile .main_profile .tab-content .account_details form{
+		gap: 0;
+	}
+	#profile .main_profile .tab-content .account_details form .liner_form {
+		display: block;
+	}
+	#profile .main_profile .tab-content .account_details form .liner_form span label {
+		font-size: 13px;
+		padding-bottom: 4px;
+	}
+	#profile .main_profile .tab-content .account_details form .liner_form span input {
+		margin-bottom: 20px;
+	}
+	#profile .main_profile .tab-content .account_details form .save_btn button {
+		font-size: 13px;
+		padding: 5px 30px;
+	}
+ }
+
+/* ==================== ACCOINT PART ENDED ================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ==================== SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== ACCOINT PART START ================== */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#profile {
+		padding: 50px 0;
+	}
+	#profile .main_profile {
+		padding: 30px;
+		display: block;
+	}
+	#profile .main_profile .sort_profile_menu {
+		width: 100%;
+	}
+	#profile .main_profile .sort_profile_menu h2 {
+		font-size: 27px;
+		padding-bottom: 10px;
+	}
+	#profile .main_profile .sort_profile_menu ul li button {
+		font-size: 16px;
+	}
+	#profile .main_profile .sort_profile_menu ul {
+		display: flex;
+		column-gap: 25px;
+		row-gap: 0px;
+		padding-bottom: 25px;
+	}
+	#profile .main_profile .sort_profile_menu ul::after {
+		width: 100%;
+		height: 1.5px;
+		top: 100%;
+		left: 0;
+	}
+	#profile .main_profile .tab-content {
+		width: 100%;
+		margin-left: 0px;
+	}
+	#profile .main_profile .tab-content .account_details h2{
+        font-size: 27px ;
+		padding: 20px 0;
+	}
+	#profile .main_profile .tab-content .account_details p {
+		font-size: 16px;
+		padding: 0px 0 25px;
+	}
+	#profile .main_profile .tab-content .account_details form .liner_form span label {
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+	#profile .main_profile .tab-content .account_details form .save_btn button {
+		font-size: 16px;
+		padding: 5px 27px;
+	}
+}
+/* ==================== ACCOINT PART ENDED ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE START ================== */
+/* ==================== ACCOINT PART START ================== */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#profile {
+		padding: 65px 0;
+	}
+	#profile .main_profile {
+		padding: 40px;
+	}
+	#profile .main_profile .sort_profile_menu {
+		width: 30%;
+	}
+	#profile .main_profile .sort_profile_menu h2 {
+		font-size: 27px;
+		padding-bottom: 20px;
+	}
+	#profile .main_profile .sort_profile_menu ul li button {
+		padding: 6px 0;
+	}
+	#profile .main_profile .tab-content .account_details h2 {
+		font-size: 27px;
+	}
+	#profile .main_profile .tab-content .account_details p {
+		padding: 25px 0 15px;
+	}
+	#profile .main_profile .tab-content .account_details form .liner_form span label {
+		padding-bottom: 6px;
+	}
+	#profile .main_profile .tab-content .account_details form .save_btn button {
+		padding: 8px 34px;
+	}
+ }
+/* ==================== ACCOINT PART START ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE ENDED ================== */
+/* ============================ ACCOUNT PAGE RESPONSIVE ENDED ====================== */
+/* ============================ MYCART PAGE RESPONSIVE START ====================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE START ================== */
+/* ==================== CART PART START ================== */
+@media (max-width: 575.98px) { 
+	#myCart {
+		padding: 0px 0 20px;
+	}
+	#myCart .cart_head {
+		margin-top: 20px;
+	}
+	#myCart .cart_head h2 {
+		font-size: 20px;
+	}
+	#myCart .cart_step {
+		margin-top: 10px;
+		gap: 150px;
+	}
+	#myCart .cart_step li {
+		font-size: 13px;
+	}
+	#myCart .cart_step li a {
+		line-height: 15px;
+		width: 15px;
+		height: 15px;
+	}
+	#myCart .cart_descript {
+		display: block;
+	}
+	#myCart .cart_descript form {
+		width: 100%;
+	}
+	#myCart .cart_descript form label {
+		padding: 20px 0 14px;
+		font-size: 13px;
+	}
+	#myCart .cart_descript form label .cart_itm .cart_txt .cartH {
+		font-size: 13px;
+	}
+	#myCart .cart_descript form label .cart_itm .cart_txt a {
+		font-size: 18px;
+	}
+	#myCart .cart_descript .coupon_summery {
+		width: 100%;
+	}
+	#myCart .cart_descript .coupon_summery .coupon {
+		margin-top: 40px;
+	}
+	#myCart .cart_descript .coupon_summery .coupon img{
+		width: 10%;
+	}
+	#myCart .cart_descript .coupon_summery .coupon a {
+		font-size: 18px;
+	}
+	#myCart .cart_descript .coupon_summery .summery h5 {
+		font-size: 18px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .summery_price {
+		padding: 20px 0 30px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .summery_price a {
+		font-size: 18px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .Checkout {
+		font-size: 13px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .Continue_Shopping {
+		font-size: 13px;
+	}
+}
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ====================  SMALL DEVICE RESPONSIVE START ================== */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#myCart {
+		padding: 0px 0 27px;
+	}
+	#myCart .cart_head {
+		margin-top: 27px;
+	}
+	#myCart .cart_head h2 {
+		font-size: 27px;
+	}
+	#myCart .cart_step {
+		margin-top: 20px;
+		gap: 175px;
+	}
+	#myCart .cart_step li {
+		font-size: 15px;
+	}
+	#myCart .cart_step li a {
+		line-height: 18px;
+		width: 18px;
+		height: 18px;
+	}
+	#myCart .cart_descript {
+		display: block;
+	}
+	#myCart .cart_descript form {
+		width: 100%;
+	}
+	#myCart .cart_descript form label {
+		padding: 25px 0 20px;
+		font-size: 15px;
+	}
+	#myCart .cart_descript form label .cart_itm .cart_txt .cartH {
+		font-size: 15px;
+	}
+	#myCart .cart_descript form label .cart_itm .cart_txt a {
+		font-size: 20px;
+	}
+	#myCart .cart_descript .coupon_summery {
+		width: 100%;
+	}
+	#myCart .cart_descript .coupon_summery .coupon {
+		margin-top: 40px;
+	}
+	#myCart .cart_descript .coupon_summery .coupon img{
+		width: 10%;
+	}
+	#myCart .cart_descript .coupon_summery .coupon a {
+		font-size: 20px;
+	}
+	#myCart .cart_descript .coupon_summery .summery h5 {
+		font-size: 20px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .summery_price {
+		padding: 25px 0 35px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .summery_price a {
+		font-size: 20px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .Checkout {
+		font-size: 15px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .Continue_Shopping {
+		font-size: 15px;
+	}
+ }
+ /* ==================== SMALL DEVICE RESPONSIVE ENDED ================== */
+ /* ==================== MEDIOUM DEVICE RESPONSIVE START ================== */
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+	#myCart {
+		padding: 0px 0 49px;
+	}
+	#myCart .cart_head h2 {
+		font-size: 40px;
+	}
+	#myCart .cart_step {
+		margin-top: 40px;
+	}
+	#myCart .cart_descript form label {
+		padding: 30px 0 20px;
+		font-size: 16px;
+	}
+	#myCart .cart_descript form label .cart_itm .cart_txt .cartH {
+		font-size: 16px;
+	}
+	#myCart .cart_descript form label .cart_itm .cart_txt a {
+		font-size: 22px;
+	}
+	#myCart .cart_descript .coupon_summery .coupon a {
+		font-size: 17px;
+	}
+	#myCart .cart_descript .coupon_summery .coupon img{
+		width: 17%;
+	}
+	#myCart .cart_descript .coupon_summery .summery h5 {
+		font-size: 22px;
+	}
+	#myCart .cart_descript .coupon_summery .summery .summery_price a {
+		font-size: 22px;
+	}
+  }
+ /* ==================== MEDIOUM DEVICE RESPONSIVE ENDED ================== */
+ /* ==================== LARGE DEVICE RESPONSIVE START ================== */
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+	 #myCart .cart_descript .coupon_summery .coupon a {
+		 font-size: 22px;
+	}
+}
+/* ==================== LARGE DEVICE RESPONSIVE ENDED ================== */
+/* ==================== CART PART ENDED ================== */
+/* ============================ MYCART PAGE RESPONSIVE ENDED ====================== */
+/* ============================ CATAGPRIES PAGE RESPONSIVE START ====================== */
+/* ==================== EXTRA SMALL DEVICE RESPONSIVE START ================== */
+@media (max-width: 575.98px) { 
+	#allcatagories {
+		padding: 20px 0 60px;
+	}
+	#allcatagories .allcata_head h2 {
+		font-family: "Montserrat", sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+	}
+	#allcatagories .allcata_head p {
+		font-size: 10px;
+		width: 90%;
+		padding: 10px 0 30px;
+	}
+	#allcatagories .main_catagori {
+		display: block;
+	}
+	#allcatagories .main_catagori .allcata_short {
+		width: 100%;
+		padding: 15px;
+	}
+	#allcatagories .main_catagori .allcata_short ul {
+		height: 200px;
+		width: 100%;
+		gap: 6px;
+	}
+	#allcatagories .main_catagori .allcata_short ul li a {
+		font-size: 13px;
+	}
+	#allcatagories .main_catagori .allcata_short .filterby {
+		margin: 0;
+		width: 100%;
+	}
+	.filterby_locat form label{
+		font-size: 13px;
+	}
+	div > label .filt_star {
+		width: 18px;
+	}
+	.filterby_locat form label img{
+		width: 33px;
+	}
+	#allcatagories .main_catagori .allcata_short .SRTfilter a {
+		padding: 10.5px 80.5px;
+		display: block;
+	}
+	#allcatagories .main_catagori .allcata_short .SRTfilter button {
+		font-size: 13px;
+	}
+	#allcatagories .main_catagori .allcata_extract {
+		width: 100%;
+		margin-top: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .allcatagories_group .allcatagories_item {
+		gap: 10px;
+		margin-bottom: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd h3 {
+		font-size: 20px;
+		padding: 25px 0 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd .featur_brand img {
+		width: 40px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd .featur_brand {
+		gap: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .product_list_head {
+		padding: 40px 0 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .product_list_head a {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item {
+		padding: 25px;
+		width: 100%;
+	}
+ }
+ /* ==================== EXTRA SMALL DEVICE RESPONSIVE ENDED ================== */
+ /* ==================== SMALL DEVICE RESPONSIVE START ================== */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#allcatagories {
+		padding: 30px 0 70px;
+	}
+	#allcatagories .allcata_head h2 {
+		font-size: 27px;
+	}
+	#allcatagories .allcata_head p {
+		font-size: 14px;
+		width: 80%;
+		padding: 10px 0 30px;
+	}
+	#allcatagories .main_catagori {
+		display: block;
+	}
+	#allcatagories .main_catagori .allcata_short {
+		width: 100%;
+		padding: 20px;
+	}
+	#allcatagories .main_catagori .allcata_short ul {
+		height: 300px;
+		width: 100%;
+		gap: 6px;
+	}
+	#allcatagories .main_catagori .allcata_short ul li a {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_short .filterby {
+		margin: 0;
+		width: 100%;
+	}
+	.filterby_locat form label{
+		font-size: 15px;
+	}
+	div > label .filt_star {
+		width: 21px;
+	}
+	.filterby_locat form label img{
+		width: 30px;
+	}
+	#allcatagories .main_catagori .allcata_short .SRTfilter a {
+		padding: 10.5px 80.5px;
+		display: block;
+	}
+	#allcatagories .main_catagori .allcata_short .SRTfilter button {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract {
+		width: 100%;
+		margin-top: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .allcatagories_group .allcatagories_item {
+		gap: 15px;
+		margin-bottom: 25px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd h3 {
+		font-size: 22px;
+		padding: 25px 0 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd .featur_brand img {
+		width: 55px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd .featur_brand {
+		gap: 40px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .product_list_head {
+		padding: 40px 0 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .product_list_head a {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item {
+		padding: 25px;
+		width: 100%;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item .addto_card a {
+		font-size: 15px;
+	}
+}
+/* ==================== SMALL DEVICE RESPONSIVE ENDED ================== */
+/* ==================== MEDIOUM DEVICE RESPONSIVE START ================== */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#allcatagories .allcata_head h2 {
+		font-size: 40px;
+	}
+	#allcatagories .allcata_head p {
+		width: 70%;
+	}
+	#allcatagories .main_catagori .allcata_extract .allcatagories_group .allcatagories_item {
+		margin-bottom: 20px;
+		gap: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .allcatagories_group .allcatagories_item .ctalist {
+		width: 20%;
+	}
+	#allcatagories .main_catagori .allcata_short {
+		padding: 15px;
+	}
+	#allcatagories .main_catagori .allcata_short ul li a {
+		font-size: 14px;
+	}
+	#allcatagories .main_catagori .allcata_short .SRTfilter a {
+		padding: 11.5px 60.5px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd h3 {
+		font-size: 22px;
+		padding: 50px 0 25px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd .featur_brand {
+		gap: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd .featur_brand img {
+		width: 63px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .product_list_head a {
+		font-size: 22px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .product_list_head h3 {
+		font-size: 22px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item {
+		padding: 10px 10px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products {
+		gap: 10px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item h4 {
+		font-size: 14px;
+		padding: 14px 0 0;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item a {
+		font-size: 12px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item ul {
+		margin: 10px 0 0;
+		gap: 35px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item .addto_card a {
+		padding: 6.5px 18px;
+	}
+ }
+/* ==================== MEDIOUM DEVICE RESPONSIVE ENDED ================== */
+/* ==================== LARGE DEVICE RESPONSIVE START ================== */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#allcatagories .main_catagori .allcata_extract .fcr_dbrnd .featur_brand {
+		gap: 30px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item {
+		padding: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products {
+		gap: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .allcatagories_group .allcatagories_item {
+		gap: 15px;
+		margin-bottom: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .allcatagories_group .allcatagories_item .ctalist {
+		width: 148px;
+	}
+ }
+/* ==================== LARGE DEVICE RESPONSIVE ENDED ================== */
+/* ============================ CATAGPRIES PAGE RESPONSIVE ENDED ====================== */
+/* ============================ BLOGDETAILS PAGE RESPONSIVE START ====================== */
+@media (max-width: 575.98px) { 
+	.Ltsblog_posd h3{
+		font-size: 18px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd ul li input {
+		font-size: 13px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd ul li {
+		font-size: 13px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd ul li img{
+		width: 12px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd ul {
+		gap: 20px;
+		padding: 10px 0 25px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .byAdminOne {
+		width: 75%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd p {
+		line-height: 26px;
+		padding: 30px 0;
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .blog_tags {
+		padding: 10px 10px;
+		width: fit-content;
+		gap: 50px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .blog_tags .tags, #ltsBlog .main_ltsblog .Ltsblog_posd .blog_tags .share {
+		gap: 8px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .blog_tags .tags h5, #ltsBlog .main_ltsblog .Ltsblog_posd .blog_tags .share h5 {
+		font-size: 13px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .blog_tags .tags ul li a, #ltsBlog .main_ltsblog .Ltsblog_posd .blog_tags .share ul li a {
+		font-size: 13px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd h4 {
+		padding: 40px 0 20px;
+		font-size: 20px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .relateded {
+		display: flex;
+		flex-direction: column;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .relateded .related_item {
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .comments h3 {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .comments .main_comment .comn_profile img {
+		width: 25%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .comments .main_comment p {
+		width: 100%;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .leave_comment h3 {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .leave_comment form label {
+		font-size: 13px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .leave_comment form button {
+		margin-top: 22px;
+		margin-left: 74%;
+		padding: 6px 25px;
+		font-size: 13px;
+	}
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#ltsBlog .main_ltsblog .Ltsblog_posd p {
+		font-size: 15px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .leave_comment form button {
+		margin-left: 79%;
+		font-size: 15px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .relateded .related_item .related_txt {
+		padding: 15px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .comments .main_comment p {
+		font-size: 15px;
+	}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_catagori ul li a {
+		font-size: 16px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_Tags ul li a {
+		font-size: 16px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile {
+		margin-top: 30px;
+		gap: 10px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd p {
+		font-size: 16px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .comments .main_comment p {
+		font-size: 16px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .leave_comment form button {
+		margin-left: 75%;
+	}
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_catagori ul li a {
+		font-size: 18px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_Tags ul li a {
+		font-size: 18px;
+	}
+	#ltsBlog .main_ltsblog .ltsblog_founder .ltsBlog_ResntPost .resntpost_profile {
+		margin-top: 30px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd p {
+		font-size: 17px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .relateded .related_item .related_txt {
+		padding: 19px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .comments .main_comment p {
+		font-size: 17px;
+	}
+ }
+ @media (min-width: 1200px){ 
+	#ltsBlog .main_ltsblog .Ltsblog_posd p {
+		font-size: 18px;
+	}
+	#ltsBlog .main_ltsblog .Ltsblog_posd .comments .main_comment p {
+		font-size: 18px;
+	}
+  }
+/* ============================ BLOGDETAILS PAGE RESPONSIVE ENDED ====================== */
+/* ============================ SEARCH PAGE RESPONSIVE START ====================== */
+@media (max-width: 575.98px) { 
+	#allcatagories .allcata_head .searchbx {
+		margin-top: 20px;
+	}
+	#allcatagories .allcata_head .ltssearch {
+		font-size: 13px;
+		padding: 11px 0;
+	}
+	#allcatagories .allcata_head ul {
+		padding-bottom: 30px;
+	}
+	#allcatagories .allcata_head ul li p {
+		font-size: 13px;
+		padding: 9px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by p {
+		font-size: 13px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by {
+		gap: 10px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by i {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by img {
+		width: 15px;
+		height: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by form label {
+		font-size: 13px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by form label select , #allcatagories .main_catagori .allcata_extract .view_by .sort_by form label select option{
+		font-size: 10px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt ul li {
+		font-size: 7px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt h4 {
+		font-size: 12px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt p {
+		font-size: 5px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt .hudai {
+		font-size: 13px;
+		padding: 6.5px 17.5px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price ul li del {
+		font-size: 14px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price ul li {
+		font-size: 20px;
+	}
+	.Newest_product_price ul{
+		margin: 0;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price span a {
+		font-size: 8px;
+	}
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#allcatagories .allcata_head .searchbx {
+		margin-top: 30px;
+	}
+	#allcatagories .allcata_head .ltssearch {
+		font-size: 15px;
+	}
+	#allcatagories .allcata_head ul li p {
+		font-size: 15px;
+		padding: 11px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by p {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by i {
+		font-size: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by img{
+			width: 20px;
+			height: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by form label {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by form label select , #allcatagories .main_catagori .allcata_extract .view_by .sort_by form label select option{
+        font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt ul li {
+		font-size: 12px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt h4 {
+		font-size: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt .hudai {
+		font-size: 16px;
+		padding: 9.5px 19.5px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price ul li {
+		font-size: 25px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price span a {
+		font-size: 12px;
+	}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#allcatagories .main_catagori .allcata_extract .view_by p {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by i {
+		font-size: 19px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by img{
+		width: 19px;
+		height: 19px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by form label {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by {
+		gap: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt ul li {
+		font-size: 12px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt h4 {
+		font-size: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt .hudai {
+		font-size: 16px;
+		padding: 10.5px 26.5px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price ul {
+		margin: 0;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price ul li {
+		font-size: 28px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price span a {
+		font-size: 12px;
+	}
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#allcatagories .main_catagori .allcata_short ul li a {
+		font-size: 17px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by i {
+		font-size: 25px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by i {
+		font-size: 25px;
+	}
+	#allcatagories .main_catagori .allcata_extract .view_by .sort_by img{
+		width: 25px;
+		height: 25px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt ul li {
+		font-size: 15px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price ul li {
+		font-size: 32px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_price span a {
+		font-size: 16px;
+	}
+	#allcatagories .main_catagori .allcata_extract .Newest_product .Newest_product_itm .Newest_product_txt .hudai {
+		padding: 8.5px 32.5px;
+	}
+ }
+/* ============================ SEARCH PAGE RESPONSIVE ENDED ====================== */
+/* ============================ CHECKOUT PAGE RESPONSIVE START ====================== */
+@media (max-width: 575.98px) { 
+	#Checkout .Checkout_head {
+		margin-top: 0px;
+	}
+	#Checkout .Checkout_head h2 {
+		font-size: 20px;
+	}
+	#Checkout .cart_step {
+		margin-top: 15px;
+		gap: 150px;
+	}
+	#Checkout .cart_step li {
+		font-size: 13px;
+	}
+	#Checkout .cart_step li a {
+		line-height: 15px;
+		width: 15px;
+		height: 15px;
+	}
+	#Checkout .Checkout_details {
+		display: block;
+	}
+	#Checkout .Checkout_details .buyer_info , #Checkout .Checkout_details .order_summery {
+		margin-top: 20px;
+		width: 100%;
+	}
+	#Checkout .Checkout_details .buyer_info h5 {
+		font-size: 15px;
+		padding:15px 0 12px;
+	}
+	#Checkout .Checkout_details .buyer_info form .info_liner span label {
+		font-size: 13px;
+		margin: 0;
+	}
+	#Checkout .Checkout_details .order_summery ol li span {
+		font-size: 13px;
+	}
+	#Checkout .Checkout_details .order_summery ul li a {
+		font-size: 13px;
+	}
+	#Checkout .Checkout_details .order_summery .chekcart a {
+		font-size: 13px;
+	}
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#Checkout .Checkout_head {
+		margin: 0;
+	}
+	#Checkout .Checkout_head h2 {
+		font-size: 30px;
+	}
+	#Checkout .cart_step {
+		margin-top: 20px;
+		gap: 150px;
+	}
+	#Checkout .cart_step li a {
+		line-height: 18px;
+		width: 18px;
+		height: 18px;
+	}
+	#Checkout .Checkout_details {
+		display: block;
+	}
+	#Checkout .Checkout_details .buyer_info , #Checkout .Checkout_details .order_summery {
+		margin-top: 30px;
+		width: 100%;
+	}
+	#Checkout .Checkout_details .buyer_info h5 {
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+	#Checkout .Checkout_details .order_summery h5 {
+		font-size: 22px;
+	}
+	#Checkout .Checkout_details .buyer_info form .info_liner span label , #Checkout .cart_step li , #Checkout .Checkout_details .order_summery ol li span , #Checkout .Checkout_details .order_summery ul li a , #Checkout .Checkout_details .order_summery .chekcart a{
+		font-size: 15px;
+	}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#Checkout .Checkout_head {
+		margin-top: 30px;
+	}
+	#Checkout .Checkout_head h2 {
+		font-size: 35px;
+	}
+	#Checkout .Checkout_details .buyer_info , #Checkout .Checkout_details .order_summery {
+		margin-top: 50px;
+	}
+	#Checkout .Checkout_details .order_summery ol li span {
+		font-size: 13px;
+	}
+	#Checkout .Checkout_details .order_summery ul li a {
+		font-size: 10px;
+		padding: 10px;
+	}
+	#Checkout .Checkout_details .order_summery .chekcart a {
+		font-size: 13px;
+	}
+	#Checkout .Checkout_details .order_summery ol {
+		margin-top: 15px;
+		padding-bottom: 15px;
+	}
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#Checkout .Checkout_head h2 {
+		font-size: 40px;
+	}
+	#Checkout .cart_step {
+		margin-top: 40px;
+	}
+	#Checkout .Checkout_details .buyer_info , #Checkout .Checkout_details .order_summery {
+		margin-top: 50px;
+	}
+	#Checkout .Checkout_details .order_summery ol li span {
+		font-size: 16px;
+	}
+	#Checkout .Checkout_details .order_summery ul li a {
+		font-size: 14px;
+	}
+	#Checkout .Checkout_details .order_summery .chekcart a {
+		font-size: 15px;
+	}
+ }
+/* ============================ CHECKOUT PAGE RESPONSIVE ENDED ====================== */
+/* ============================ SINGLEPRODUCT PAGE RESPONSIVE START ====================== */
+@media (max-width: 575.98px) { 
+	#single_product {
+		padding: 35px 0 40px;
+	}
+	#single_product .page_location ol li a {
+		font-size: 13px;
+	}
+	#single_product .pro_rate ul li {
+		font-size: 10px;
+	}
+	#single_product .pro_rate ul li a img{
+		width: 15px;
+	}
+	#single_product .pro_rate {
+		display: block;
+	}
+	#single_product .pro_rate ul{
+		margin-bottom: 5px;
+	}
+	#single_product .pro_price h2 a {
+		font-size: 20px;
+	}
+	#single_product .pro_price .product_price ul li a {
+		font-size: 20px;
+	}
+	#single_product .pro_price .product_price .money_save {
+		font-size: 13px;
+		padding: 5px;
+	}
+	#single_product .profeature {
+		padding: 20px 0;
+	}
+	#single_product .profeature ul {
+		margin: 0;
+	}
+	#single_product .profeature ul li{
+		font-size: 10px;
+	}
+	#single_product .profeature ul li img{
+		width: 20px;
+	}
+	#single_product .pro_description p {
+		font-size: 10px;
+	}
+	#single_product .quantity {
+		margin-top: 35px;
+		display: block;
+	}
+	#single_product .quantity .main_quentity {
+		justify-content: space-between;
+	}
+	#single_product .quantity .quantity_chat{
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+	#single_product .quantity .quantity_chat a {
+		font-size: 13px;
+	}
+	#about_single_product {
+		padding: 0px 0 60px;
+	}
+	#about_single_product ul li button {
+		font-size: 9px;
+	}
+	#about_single_product #myTabContent .tab-pane .main_review .review_id .rev_name h3 a , 	#about_single_product #myTabContent .tab-pane .main_review .review_id .rev_name a , #about_single_product #myTabContent .tab-pane .main_review .gived_review p{
+		font-size: 13px;
+	}
+	#about_single_product #myTabContent .tab-pane .main_review .review_id .rev_name a img{
+		width: 15px;
+	}
+	.about_single_product_head{
+		margin-top: 30px;
+	}
+	#about_single_product .about_single_product_head p {
+		font-size: 13px;
+		padding: 8px 0 20px;
+	}
+	#about_single_product .about_single_product_form form label {
+		font-size: 13px;
+	}
+	#about_single_product .about_single_product_form form button {
+		font-size: 13px;
+		padding: 9.5px 16.5px;
+	}
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#single_product .main_pro_short .product_short img {
+		width: 80%;
+	}
+	#single_product .pro_rate ul {
+		padding: 20px 0;
+	}
+	#single_product .profeature ul li {
+		font-size: 18px;
+	}
+	#single_product .quantity {
+		margin-top: 40px;
+	}
+	#single_product .quantity .main_quentity span {
+		font-size: 20px;
+	}
+	#about_single_product .about_single_product_form form button {
+		padding: 10.5px 31.5px;
+	}
+	#about_single_product .about_single_product_head h2 {
+		margin-top: 50px;
+	}
+	#about_single_product .about_single_product_head p {
+		padding: 16px 0 20px;
+	}
+	#about_single_product {
+		padding: 0px 0 99px;
+	}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	#single_product {
+		padding: 60px 0 60px;
+	}
+	#single_product .main_pro_short .product_short img {
+		width: 70%;
+	}
+	#single_product .profeature {
+		padding: 38px 0 0px;
+	}
+	#single_product .quantity {
+		margin-top: 40px;
+	}
+	#myTab{
+		gap: 60px;
+	}
+	#about_single_product ul li button {
+		font-size: 18px;
+	}
+	#about_single_product .about_single_product_form form button {
+		padding: 11.5px 31.5px;
+	}
+	#about_single_product {
+		padding: 0px 0 75px;
+	}
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#single_product {
+		padding: 60px 0 60px;
+	}
+	#single_product .quantity .main_quentity span {
+		font-size: 15px;
+	}
+	#single_product .quantity .quantity_chat a {
+		font-size: 15px;
+		padding: 3.5px 13.5px;
+	}
+	#single_product .profeature {
+		padding: 28px 0 0px;
+	}
+	#single_product .pro_description h3 {
+		padding: 24px 0 7px;
+	}
+	#single_product .quantity {
+		margin-top: 25px;
+	}
+	#about_single_product ul li button {
+		font-size: 14px;
+	}
+ }
+/* ============================ SINGLEPRODUCT PAGE RESPONSIVE ENDED ====================== */
+/* ============================ EMPTYCATAGORIES PAGE RESPONSIVE START ====================== */
+@media (max-width: 575.98px) { 
+    #allcatagories .main_catagori .allcata_extract .product_empty h3 {
+		font-size: 20px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_empty p {
+		font-size: 13px;
+		width: 83%;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_empty {
+		margin-top: 10%;
+		padding-bottom: 15%;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_empty img{
+		width: 35%;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_list .product_list_head h3 {
+		font-size: 20px;
+	}
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	#allcatagories .main_catagori .allcata_extract .product_empty h3 {
+		font-size: 35px;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_empty p {
+		font-size: 15px;
+		width: 65%;
+	}
+	#allcatagories .main_catagori .allcata_extract .product_empty {
+		padding-bottom: 10%;
+	}
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.accordion .accordion-item .accordion-header button {
+		font-size: 16px;
+	}
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#allcatagories .main_catagori .allcata_extract .product_list .all_products .all_prod_item {
+		padding: 13px;
+	}
+ }
+/* ============================ EMPTYCATAGORIES PAGE RESPONSIVE ENDED ====================== */

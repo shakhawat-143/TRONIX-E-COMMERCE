@@ -1,0 +1,113 @@
+
+@import '../mixins/mixin';
+@import '../variables/variables';
+nav{
+    .main_nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 36px 0;
+        .nav_search{
+            display: flex;
+            gap: 32px;
+            .dashboard{
+                img{
+                    background-color: #D0D0D2;
+                    padding: 12px;
+                    border-radius: 8px;
+                }
+                .btn-secondary{
+                    --bs-btn-bg: transparent;
+                    --bs-btn-border-color: transparent;
+                    --bs-btn-hover-bg: transparent;
+                    --bs-btn-hover-border-color: transparent;
+                }
+                .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+                    background-color: transparent;
+                    border-color: transparent;
+                }
+                ul{
+                    width: 20%;
+                    --bs-dropdown-link-active-bg: #F46B5B;
+                }
+            }
+            form{
+                display: flex;
+                input{
+                    padding: 10px 10px 11px 32px;
+                    width: 350px;
+                    background-color: #D0D0D2;
+                    border: none;
+                    border-top-left-radius: 8px;
+                    border-bottom-left-radius: 8px;
+                    &::placeholder{
+                        @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+                    }
+                }
+                button{
+                    padding: 10px;
+                    background-color: #D0D0D2;
+                    border: none;
+                    border-top-right-radius: 8px;
+                    border-bottom-right-radius: 8px; 
+                    background-color: $brand_color;   
+                    i{
+                        color: white;
+                    }   
+                }
+            }
+        }
+        .nav_signup{
+            display: flex;
+            align-items: center;
+            .shopping{
+                display: flex;
+                gap: 32px;
+                .shop{
+                    position: relative;
+                    a{
+                        @include descrip ($ff: $primary_font, $fs: 12px, $fw: 400, $clr: #fff);
+                        padding: 5px;
+                        color: white;
+                        background-color: $brand_color;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: -14px;
+                        right: -13px;
+                    }
+                }
+                i{
+                    font-size: 20px;
+                }
+            }
+            .sign_login{
+                a{
+                    @include descrip ($ff: $third_font, $fs: 18px, $fw: 400, $clr: $brand_color);
+                    padding: 16.5px 40.5px;
+                    text-decoration: underline;
+                    text-transform: capitalize;
+                    border-radius: 8px;
+                    transition: .3s;
+                    &:hover{
+                        color: white;
+                        text-decoration: none;
+                        background-color: $brand_color;
+                    }
+                }
+            }
+        }
+    }
+    .main_menu{
+        ul{
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            li{
+                a{
+                    @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

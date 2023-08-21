@@ -1,0 +1,144 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#featured_product{
+    .feature_head{
+        text-align: center;
+        h2{
+            @include head ($ff: $secondery_font , $fs: 56px, $fw: 700, $clr: $primary_color)
+        }
+        p{
+            @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $secondery_color);
+            width: 43%;
+            margin: 24px auto 0;
+        }
+    }
+    .main_feature_product{
+        text-align: center;
+        margin-top: 80px;
+        border: 1px solid $secondery_color;
+        border-radius: 20px;
+        h3{
+          a{
+
+            @include descrip ($ff: $primary_font, $fs: 36px, $fw: 400, $clr: $primary_color);
+            padding-top: 48px;
+          }
+        }
+        .featured_product_price{
+            display: flex;
+            gap: 5px;
+            justify-content: center;
+            padding: 8px 0 32px;
+            span{
+                @include descrip ($ff: $primary_font, $fs: 24px, $fw: 400, $clr: $secondery_color);
+            }
+            a{
+                @include descrip ($ff: $primary_font, $fs: 24px, $fw: 400, $clr: $brand_color);
+                
+              }
+            }
+        img{
+            width: 75%;
+        }
+        .countdown_timer{
+          padding: 32px 0;
+          ul{
+            display: flex;
+            gap: 32px;
+            justify-content: center;
+            padding: 0;
+            li{
+              padding: 3%;
+              border-radius: 25px;
+              border: 1px solid $secondery_color;
+              p{
+                @include descrip ($ff: $primary_font, $fs: 36px, $fw: 700, $clr: $brand_color);
+                
+              }
+              span{
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                text-transform: capitalize;
+              }
+            }
+          }
+        }
+      }
+      .main_limited{
+        margin-top: 80px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        .feature_limited{
+          display: flex;
+          gap: 32px;
+          border: 1px solid $secondery_color;
+          border-top-right-radius: 20px;
+          border-bottom-right-radius: 20px;
+          .limited_img{
+            width: 50%;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .limited_txt{
+            h4{
+              @include descrip ($ff: $primary_font, $fs: 18px, $fw: 500, $clr: #fff);
+              padding: 10.5px 32.5px;
+              background-color: $brand_color;
+              border-radius: 8px;
+              margin-top: 48px;
+              text-transform: capitalize;
+              width: max-content;
+              &:hover{
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+              }
+            }
+            h3{
+              a{
+
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: $primary_color);
+                padding: 32px 0 8px;
+              }
+            }
+            .featured_product_price{
+              display: flex;
+              gap: 5px;
+              padding: 8px 0 32px;
+              span{
+                  @include descrip ($ff: $primary_font, $fs: 24px, $fw: 400, $clr: $secondery_color);
+              }
+              a{
+                  @include descrip ($ff: $primary_font, $fs: 24px, $fw: 400, $clr: $brand_color);
+                  
+                }
+              }
+              .countdown_timer{
+                ul{
+                  display: flex;
+                  gap: 10px;
+                  justify-content: center;
+                  margin: 0;
+                  li{
+                    padding: 3%;
+                    border-radius: 13px;
+                    border: 1px solid $secondery_color;
+                    p{
+                      @include descrip ($ff: $primary_font, $fs: 10px, $fw: 700, $clr: $brand_color);
+                      text-align: center;
+                    }
+                    span{
+                      @include descrip ($ff: $primary_font, $fs: 10px, $fw: 400, $clr: $primary_color);
+                      text-transform: capitalize;
+                    }
+                  }
+                }
+              }
+              .cdtmr2{
+                padding-bottom: 40px;
+              }
+          }
+        }
+      }
+}

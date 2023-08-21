@@ -1,0 +1,40 @@
+@import '../mixins/mixin';
+@import '../variables/variables';
+#Abnewslatter{
+    padding: 69px 0;
+    background-color: $brand_color;
+    .abMain_newslatter{
+        padding: 0 50px;
+        display: flex;
+        .ab_news_head{
+            margin-left: 32px;
+            h2{
+                @include head ($ff: $secondery_font , $fs: 38px, $fw: 700, $clr: #fff);
+            }
+            p{
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: #fff);
+                margin-top: 17px;
+            }
+        }
+        form{
+            position: relative;
+            width: 100%;
+            margin-left: 117px;
+            input{
+                padding: 24px 0 24px 32px;
+                width: 100%;
+                border-radius: 8px;
+                border: none;
+            }
+            button{
+                position: absolute;
+                top: 6%;
+                right: 2%;
+                @include descrip ($ff: $primary_font, $fs: 18px, $fw: 400, $clr: #fff);
+                background-color: $primary_color;
+                padding: 16.5px 32.5px;
+                border-radius: 8px;
+            }
+        }
+    }
+}
