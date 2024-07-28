@@ -21,7 +21,7 @@ $('.banner_slider').slick({
 // ======= BANNER SLIDER END =========
 // ========================= FEATURED COUNTDOWN START ===================================
 
-var countDownDate = new Date("Jul 25, 2024 16:37:52").getTime();
+var countDownDate = new Date("Jul 25, 2050 16:37:52").getTime();
 
 var myfunc = setInterval(function() {
 
@@ -50,7 +50,7 @@ var myfunc = setInterval(function() {
 
 // =========================== 2ND COUNTDOWN ==========================
 
-var countDownDate = new Date("Jul 25, 2024 16:37:52").getTime();
+var countDownDate = new Date("Jul 25, 2050 16:37:52").getTime();
 
 var myfunc = setInterval(function() {
 
@@ -78,7 +78,7 @@ var myfunc = setInterval(function() {
 }, 1000);
 // =========================== 3RD COUNTDOWN ==========================
 
-var countDownDate = new Date("Jul 25, 2024 16:37:52").getTime();
+var countDownDate = new Date("Jul 25, 2050 16:37:52").getTime();
 
 var myfunc = setInterval(function() {
 
@@ -106,7 +106,7 @@ var myfunc = setInterval(function() {
 }, 1000);
 // =========================== FLASHSALE COUNTDOWN ==========================
 
-var countDownDate = new Date("Jul 25, 2024 16:37:52").getTime();
+var countDownDate = new Date("Jul 25, 2050 16:37:52").getTime();
 
 var myfunc = setInterval(function() {
 
